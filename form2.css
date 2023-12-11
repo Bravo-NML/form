@@ -107,8 +107,7 @@ transition: all .05s linear;
   color: #1B1B1B;
 }
 
-.auth-page-content  button:hover .t-content{
-  background-color: #F3F3F3;
+.auth-page-content  button:hover *{
   color: #1B1B1B;
 }
 
@@ -246,7 +245,7 @@ max-height: none;
 .password-form .password-form__back-button .t-wrapper{
   background-color: transparent !important;
   background-image: url('./arrow.svg') !important;
-  background-size: contain;
+  background-size: contain !important;
   background-repeat: no-repeat;
   background-position: center;
 }
