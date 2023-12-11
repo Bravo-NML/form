@@ -142,3 +142,8 @@ margin: 0 auto;
   [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
     --tui-focus: 
   }
+
+  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
+    width: 721px;
+    margin: 0 auto;
+  }
