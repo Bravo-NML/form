@@ -337,7 +337,7 @@ padding: 24px 80px;
   height: auto;
 }
 
-.password-form__input-with-button>div:first-child>.input-control{
+.auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
   border-bottom-right-radius: 20px!important;
   border-radius: 20px!important;
