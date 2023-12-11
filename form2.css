@@ -130,8 +130,7 @@ transition: all .05s linear;
   .auth-page-content  .email-form {max-width: none !important;}
 
 .auth-page-content .email-form__input-with-button div:has(#email-form-submit-button){
-  position: absolute;
-  top: calc(100% + 49px);
+  margin-top: 49px;
 }
 
 .auth-page-content  .t-placeholder .ng-star-inserted {color: #A0A0A0;
@@ -179,7 +178,6 @@ max-height: none;
     height: 100%;
     width: 100%;
     padding: 20px;
-    padding-top: 40px;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
