@@ -106,3 +106,9 @@ line-height: normal;
 letter-spacing: -3px;
 text-transform: uppercase;
   }
+
+  .auth-page-content #email-form-submit-button{
+    height: auto;
+    padding: 20px
+    border-radius: 20px !important;
+  }
