@@ -176,12 +176,12 @@ max-height: none;
   .auth-page-content .tui-autofill  .t-placeholder{
     color: #A0A0A0 !important;
 
-/* text 2 */
-font-family: Raleway !important;
-font-size: 40px !important;
-font-style: normal !important;
-font-weight: 400 !important;
-line-height: normal !important;
+    /* text 2 */
+    font-family: Raleway !important;
+    font-size: 40px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
   }
 
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
@@ -220,3 +220,17 @@ line-height: normal !important;
   /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
   /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
 
+.password-form{
+  background-color: #F3F3F3;
+}
+
+.password-form .password-form__title{
+  color: #1B1B1B;
+  text-align: center;
+  /* text 2 */
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
