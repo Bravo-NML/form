@@ -275,6 +275,16 @@ max-height: none;
   background-position: center;
 }
 
+.password-form .tui-autofill{
+  font-size: 40px;
+  height: auto;
+  line-height: 40px;
+}
+
+.password-form * {
+  font-family: Raleway !important;
+}
+
 .password-form:has(input[type='text']) .t-icon{
   background-image: url('./eye.svg');
 }
