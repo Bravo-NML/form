@@ -335,7 +335,7 @@ padding: 24px 80px;
 }
 
 .auth-page-content .password-form{
-  max-width: none !important;
+  max-width: 721px !important;
 }
 
 .password-form__input-with-button{
