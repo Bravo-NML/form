@@ -139,7 +139,7 @@ max-height: none;
   }
   
   .auth-page-content .tui-autofill  .t-placeholder{
-    color: #A0A0A0;
+    color: #A0A0A0 !important;
 
 /* text 2 */
 font-family: Raleway !important;
@@ -172,6 +172,6 @@ line-height: normal !important;
     border: 3px solid #FF1C1C !important;
   }
 
-  .tui-autofill._invalid input{
+  .tui-autofill._invalid{
     --tui-focus: transparent !important;
   }
