@@ -360,6 +360,7 @@ padding: 24px 80px;
 
 .confirm-form{
   background-color: transparent !important;
+  max-width: none !important;
 }
 
 .confirm-form #confirm-form-title{
