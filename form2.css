@@ -260,7 +260,7 @@ max-height: none;
 }
 
 .password-form  .t-icon{
-  background-image: url('./eye.svg');
+  background-image: url('./eyeClosed.svg');
   width: 64.906px;
   height: 45.572px;
   background-size: contain;
