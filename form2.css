@@ -153,7 +153,7 @@ text-transform: uppercase;
     border-radius: 20px !important;
   }
 
-  #email-form-input .t-textfield{
+  #email-form-input .t-textfield, #email-form-input .t-textfield{
 height: 104px;
 width: 721px;
 margin: 0 auto;
