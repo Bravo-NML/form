@@ -142,11 +142,16 @@ max-height: none;
 
 text-align: center;
 /* text 2 */
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+font-family: Raleway !important;
+font-size: 40px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: normal !important;
+  }
+
+  auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
+    color: #A0A0A0 !important;
+    margin-top: -30px;
   }
 
   .auth-page-content .email-form{
