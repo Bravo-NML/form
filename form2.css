@@ -20,7 +20,7 @@ border: 3px solid #1B1B1B;
 background: #F3F3F3;
 }
 
-.auth-page-content  .email-form__title{color: var(--black, #1B1B1B);
+.auth-page-content  .email-form__title{color: #1B1B1B;
   text-align: center;
   font-family: Raleway;
   font-size: 40px;
@@ -51,7 +51,7 @@ background: #F3F3F3;
   gap: 10px;
   }
 
-div:has(.email-form-submit-button){
+.auth-page-content div:has(#email-form-submit-button){
   position: absolute;
   top: calc(100% + 49px);
 }
