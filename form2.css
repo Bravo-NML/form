@@ -112,3 +112,8 @@ text-transform: uppercase;
     padding: 20px
     border-radius: 20px !important;
   }
+
+  #email-form-input .t-textfield{
+height: auto;
+padding: 20px;
+  }
