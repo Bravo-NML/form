@@ -76,7 +76,7 @@ line-height: normal;
 
 .auth-page-content .email-form__input-with-button div:has(#email-form-submit-button){
   position: absolute;
-  bottom: 70px;
+  bottom: 20px;
 }
 
 .auth-page-content  .t-placeholder .ng-star-inserted {color: #A0A0A0;
@@ -109,11 +109,15 @@ text-transform: uppercase;
 
   .auth-page-content #email-form-submit-button{
     height: auto;
-    padding: 20px
+    padding: 20px;
     border-radius: 20px !important;
   }
 
   #email-form-input .t-textfield{
 height: auto;
 padding: 20px;
+  }
+
+  .auth-page-content .tui-autofill{
+background: transparent;
   }
