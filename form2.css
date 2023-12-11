@@ -136,7 +136,7 @@ transition: all .05s linear;
   font-weight: 400;
   line-height: normal;}
 
-  .email-form__input-with-button>div:nth-child(2)>button, .password-form__input-with-button>div:nth-child(2)>button{
+  .auth-page-content .email-form__input-with-button>div:nth-child(2)>button, .auth-page-content .password-form__input-with-button>div:nth-child(2)>button{
     border-radius: 20px !important;
   }
 
