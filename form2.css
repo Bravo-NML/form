@@ -55,7 +55,7 @@ background: #F3F3F3;
 
   .auth-page-content input[type="email"]{
     padding: 24px 80px !important;
-    color: #A0A0A0;
+    color: #1B1B1B;
 
 text-align: center;
 /* text 2 */
@@ -75,7 +75,13 @@ line-height: normal;
   justify-content: center;
   align-items: center;
   gap: 10px;
+transition: all .05s linear;
   }
+
+.auth-page-content  .email-form__submit-button:hover, .auth-page-content  .email-form__submit-button .t-wrapper:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
 
   .auth-page-content  .email-form {max-width: none !important;}
 
