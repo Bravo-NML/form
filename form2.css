@@ -262,7 +262,7 @@ max-height: none;
   display: none;
 }
 
-.password-form  .t-src{
+.password-form  tui-svg{
   display: none !important;
 }
 
