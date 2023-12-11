@@ -119,12 +119,13 @@ text-transform: uppercase;
   }
 
   #email-form-input .t-textfield{
-height: auto;
-padding: 20px;
+height: 104px;
+width: 721px;
+margin: 0 auto;
   }
 
   .auth-page-content .tui-autofill{
-background: transparent !important;
+    padding: 20px;
   }
   
 
@@ -134,4 +135,8 @@ background: transparent !important;
 
   .auth-page-content .tui-autofill .t-content{
     overflow: visible !important;
+  }
+
+  [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
+    --tui-focus: 
   }
