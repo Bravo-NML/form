@@ -1,5 +1,9 @@
 .auth-page-content {
-  background: #F3F3F3;
+  background: #F3F3F3 !important;
+}
+
+.auth-page-content .email-form no-padding{
+  background: #F3F3F3 !important;
 }
 
 .auth-page-content .t-placeholder .ng-star-inserted{
