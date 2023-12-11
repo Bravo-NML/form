@@ -27,6 +27,10 @@
   overflow: hidden;
 }
 
+.auth-page-content *{
+  /* text 2 */
+font-family: Raleway !important;
+}
 .auth-page-content{
   justify-content: start !important;
   padding-top: 40px;
@@ -41,7 +45,6 @@
 
 text-align: center;
 /* text 2 */
-font-family: Raleway;
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
@@ -344,4 +347,47 @@ padding: 24px 80px;
   border-top-right-radius: 20px!important;
   border-bottom-right-radius: 20px!important;
   border-radius: 20px!important;
+}
+
+/* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   
+/* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   
+/* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   
+
+.confirm-form{
+  background-color: transparent !important;
+}
+
+.confirm-form #confirm-form-title{
+  color:  #1B1B1B;
+  text-align: center;
+  /* text 2 */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px auto !important;
+}
+
+.confirm-form #confirm-form-description-desktop{
+  color: #1B1B1B;
+text-align: center;
+/* text 3 */
+font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.confirm-form #confirm-form-go-back-row{
+  margin-top: 49px !important;
+  color: #5574DD;
+
+text-align: center;
+/* text 3 */
+font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
