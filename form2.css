@@ -262,11 +262,7 @@ max-height: none;
   display: none;
 }
 
-.password-form  .t-icon{
-  display: none !important;
-}
-
-.password-form  .t-icon{
+.password-form .t-icon{
   background-image: url('./eyeClosed.svg');
   width: 64.906px;
   height: 45.572px;
@@ -289,11 +285,21 @@ max-height: none;
   font-size: 80px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 94px;
   letter-spacing: -3px;
   text-transform: uppercase;
 }
 
 #password-form-submit-button .t-content{
 padding: 24px 80px;
+}
+
+.auth-page-content #password-form-submit-button{
+  height: auto;
+}
+
+.password-form__input-with-button>div:first-child>.input-control{
+  border-top-right-radius: 20px!important;
+  border-bottom-right-radius: 20px!important;
+  border-radius: 20px!important;
 }
