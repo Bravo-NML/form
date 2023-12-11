@@ -2,6 +2,11 @@
   background: #F3F3F3 !important;
 }
 
+.auth-page-content{
+  justify-content: start;
+  padding-top: 104px;
+}
+
 .auth-page-content .email-form no-padding{
   background: #F3F3F3 !important;
 }
@@ -119,10 +124,14 @@ padding: 20px;
   }
 
   .auth-page-content .tui-autofill{
-background: transparent;
+background: transparent !important;
   }
   
 
   .auth-page-content .email-form{
     position: relative;
+  }
+
+  .auth-page-content .tui-autofill .t-content{
+    overflow: visible !important;
   }
