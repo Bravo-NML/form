@@ -84,3 +84,21 @@ line-height: normal;
   font-style: normal;
   font-weight: 400;
   line-height: normal;}
+
+  .email-form__input-with-button>div:nth-child(2)>button{
+    border-radius: 20px !important;
+  }
+
+  #email-form-submit-button .t-content{
+    background-color: transparent;
+    color: #F3F3F3;
+text-align: center;
+/* button 1 */
+font-family: Raleway;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -3px;
+text-transform: uppercase;
+  }
