@@ -1,5 +1,5 @@
-div[data-tui-theme="tinkoff"]{
-  .email-form__title{color: var(--black, #1B1B1B);
+
+.auth-page-content  .email-form__title{color: var(--black, #1B1B1B);
   text-align: center;
   font-family: Raleway;
   font-size: 40px;
@@ -8,7 +8,7 @@ div[data-tui-theme="tinkoff"]{
   line-height: normal;
   text-transform: uppercase;}
   
-  .email-form__sub-title{
+ .auth-page-content .email-form__sub-title{
     color: var(--black, #1B1B1B);
   text-align: center;
   /* text 2 */
@@ -19,7 +19,7 @@ div[data-tui-theme="tinkoff"]{
   line-height: normal;
   }
   
-  .email-form__submit-button{
+.auth-page-content  .email-form__submit-button{
     border-radius: 20px;
   background: var(--black, #1B1B1B);
     display: inline-flex;
@@ -29,7 +29,6 @@ div[data-tui-theme="tinkoff"]{
   align-items: center;
   gap: 10px;
   }
-}
 
 div:has(.email-form-submit-button){
   position: absolute;
