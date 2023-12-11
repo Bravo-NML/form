@@ -127,7 +127,7 @@ margin: 0 auto;
     height: 100%;
     width: 100%;
     padding: 20px;
-    background-color: transparent;
+    background-color: transparent !important;
     --tui-focus: #1B1B1B;
   }
   
