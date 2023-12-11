@@ -279,3 +279,7 @@ max-height: none;
   position: absolute;
   top: calc(100% + 49px);
 }
+.password-form__input-with-button>div:nth-child(2)>button {
+  border-top-left-radius: 20px!important;
+  border-bottom-left-radius: 20px!important;
+}
