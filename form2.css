@@ -102,12 +102,12 @@ line-height: normal;
 transition: all .05s linear;
   }
 
-.auth-page-content  button:hover, .auth-page-content  button .t-wrapper:hover{
+.auth-page-content  button:hover, .auth-page-content  button:hover .t-wrapper{
   background-color: #F3F3F3;
   color: #1B1B1B;
 }
 
-.auth-page-content  button:hover .t-content, .auth-page-content  button .t-wrapper:hover .t-content{
+.auth-page-content  button:hover .t-content{
   background-color: #F3F3F3;
   color: #1B1B1B;
 }
