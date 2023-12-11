@@ -385,17 +385,15 @@ font-weight: 400;
 line-height: normal;
 }
 
-.confirm-form #confirm-form-go-back-row{
+.auth-page-content .confirm-form #confirm-form-go-back-row{
   margin-top: 49px !important;
-  color: #5574DD;
+  color: #5574DD !important;
 
-text-align: center;
-/* text 3 */
-font-family: Raleway;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+text-align: center !important;
+font-size: 25px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: normal !important;
 }
 
 .auth-page-content {
