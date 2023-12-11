@@ -1,3 +1,27 @@
+@font-face{
+  font-family: "Raleway";
+  src: url('./Raleway-Bold.ttf');
+  font-style: normal;
+  font-display: auto;
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: "Raleway";
+  src: url('./Raleway-Medium.ttf');
+  font-style: normal;
+  font-display: auto;
+  font-weight: 500;
+}
+
+@font-face{
+  font-family: "Raleway";
+  src: url('./Raleway-Regular.ttf');
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+}
+
 .auth-page-content, html, body {
   background: #F3F3F3 !important;
   overflow: hidden;
