@@ -174,5 +174,6 @@ line-height: normal !important;
 
   [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
     transition: border .1s linear;
-    border: none !important;
+    border: 3px solid #FF1C1C !important;
+    --tui-focus: transparent;
   }
