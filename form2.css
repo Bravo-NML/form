@@ -255,7 +255,7 @@ max-height: none;
   display: none;
 }
 
-.password-form  .t-icon *{
+.password-form  .t-icon{
   display: none !important;
 }
 
