@@ -149,9 +149,9 @@ font-weight: 400 !important;
 line-height: normal !important;
   }
 
-  .t-placeholder_raised[_ngcontent-uhh-c140]{
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
-    transform: translateY(-30px);
+    transform: translateY(-30px) !important;
     font-size: 20px !important;
   }
 
