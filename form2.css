@@ -252,6 +252,12 @@ max-height: none;
   display: none;
 }
 
-.password-form  .t-icon {
+.password-form  .t-icon *{
   display: none !important;
+}
+
+.password-form  .t-icon{
+  background-image: url('./eye.svg');
+  width: 64.906px;
+  height: 45.572px;
 }
