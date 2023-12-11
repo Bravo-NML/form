@@ -115,8 +115,8 @@ transition: all .05s linear;
   color: #1B1B1B;
 }
 
-.auth-page-content  button:hover *{
-  color: #1B1B1B;
+.auth-page-content  button:hover .t-content, .auth-page-content  #email-form-submit-button:hover .t-content{
+  color: #1B1B1B !important;
 }
 
   .auth-page-content  .email-form {max-width: none !important;}
@@ -280,7 +280,8 @@ max-height: none;
 }
 
 .password-form .t-placeholder_raised{
-  
+ font-size: 20px !important;
+ transform: translateY(-48px) !important; 
 }
 
 .password-form .t-placeholder{
