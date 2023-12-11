@@ -102,12 +102,12 @@ line-height: normal;
 transition: all .05s linear;
   }
 
-.auth-page-content  .email-form__submit-button:hover, .auth-page-content  .email-form__submit-button .t-wrapper:hover{
+.auth-page-content  button:hover, .auth-page-content  button .t-wrapper:hover{
   background-color: #F3F3F3;
   color: #1B1B1B;
 }
 
-.auth-page-content  .email-form__submit-button:hover .t-content, .auth-page-content  .email-form__submit-button .t-wrapper:hover .t-content{
+.auth-page-content  button:hover .t-content, .auth-page-content  button .t-wrapper:hover .t-content{
   background-color: #F3F3F3;
   color: #1B1B1B;
 }
@@ -210,3 +210,9 @@ line-height: normal !important;
   .tui-autofill._invalid{
     --tui-focus: transparent !important;
   }
+
+
+  /* FORM 3 */   /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
+  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
+  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
+
