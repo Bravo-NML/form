@@ -136,7 +136,7 @@ transition: all .05s linear;
   font-weight: 400;
   line-height: normal;}
 
-  .email-form__input-with-button>div:nth-child(2)>button{
+  .email-form__input-with-button>div:nth-child(2)>button, .password-form__input-with-button>div:nth-child(2)>button{
     border-radius: 20px !important;
   }
 
@@ -273,5 +273,9 @@ max-height: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
 
+.auth-page-content .password-form__input-with-button div:has(#password-form-submit-button){
+  position: absolute;
+  top: calc(100% + 49px);
 }
