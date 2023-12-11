@@ -242,3 +242,12 @@ max-height: none;
 .password-form .link-row a{
   color: #5574DD;
 }
+
+.password-form .password-form__back-button .t-wrapper{
+  background-color: transparent !important;
+  background-image: url('./arrow.svg');
+}
+
+.password-form .password-form__back-button .t-content{
+  display: none;
+}
