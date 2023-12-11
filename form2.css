@@ -106,6 +106,10 @@ transition: all .05s linear;
     border: 3px solid #1B1B1B;
   }
 
+  .auth-page-content  button *{
+    color: #F3F3F3;
+  }
+
 .auth-page-content  button:hover, .auth-page-content  button:hover .t-wrapper{
   background-color: #F3F3F3;
   color: #1B1B1B;
