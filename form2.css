@@ -121,6 +121,7 @@ text-transform: uppercase;
 height: 104px;
 width: 721px;
 margin: 0 auto;
+max-height: none;
   }
 
   .auth-page-content .tui-autofill{
@@ -128,6 +129,7 @@ margin: 0 auto;
     width: 100%;
     padding: 20px;
     background-color: transparent !important;
+    box-sizing: border-box;
     --tui-focus: #1B1B1B;
   }
   
