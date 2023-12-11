@@ -234,3 +234,11 @@ max-height: none;
   font-weight: 400;
   line-height: normal;
 }
+
+.password-form .link-row{
+  text-align: center;
+}
+
+.password-form .link-row a{
+  color: #5574DD;
+}
