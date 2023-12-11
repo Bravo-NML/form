@@ -283,3 +283,17 @@ max-height: none;
   border-top-left-radius: 20px!important;
   border-bottom-left-radius: 20px!important;
 }
+
+#password-form-submit-button .t-content{
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+
+#password-form-submit-button .t-content{
+padding: 24px 80px;
+}
