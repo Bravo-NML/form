@@ -336,15 +336,12 @@ padding: 24px 80px;
   max-width: 817 !important;
 }
 
-.password-form__input-with-button{
-  width: 721px;
+.auth-page-content .password-form__input-with-button{
+  width: 721px  !important;
+  height: 104px !important;
 }
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
   border-bottom-right-radius: 20px!important;
   border-radius: 20px!important;
-}
-
-.password-form__input-with-button{
-  height: 104px;
 }
