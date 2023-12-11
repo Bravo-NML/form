@@ -246,6 +246,9 @@ max-height: none;
 .password-form .password-form__back-button .t-wrapper{
   background-color: transparent !important;
   background-image: url('./arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .password-form .password-form__back-button .t-content{
@@ -260,4 +263,8 @@ max-height: none;
   background-image: url('./eye.svg');
   width: 64.906px;
   height: 45.572px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
