@@ -211,6 +211,10 @@ line-height: normal !important;
     --tui-focus: transparent !important;
   }
 
+  .tui-autofill._focused{
+    --tui-focus: transparent !important;
+  }
+
 
   /* FORM 3 */   /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
   /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */  /* FORM 3 */
