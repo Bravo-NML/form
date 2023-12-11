@@ -130,9 +130,20 @@ max-height: none;
     padding: 20px;
     background-color: transparent !important;
     box-sizing: border-box;
-    --tui-focus: #1B1B1B;
+    border: 3px solid #1B1B1B
   }
   
+  .auth-page-content .tui-autofill  .t-placeholder{
+    color: #A0A0A0;
+
+text-align: center;
+/* text 2 */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
 
   .auth-page-content .email-form{
     position: relative;
