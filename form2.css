@@ -242,9 +242,6 @@ max-height: none;
   line-height: normal;
 }
 
-.password-form .link-row{
-  text-align: center;
-}
 
 .password-form .link-row a{
   color: #5574DD;
@@ -335,7 +332,7 @@ padding: 24px 80px;
 }
 
 .auth-page-content .password-form{
-  max-width: 721px !important;
+  max-width: 817 !important;
 }
 
 .password-form__input-with-button{
