@@ -1,212 +1,188 @@
+.auth-page-content, html, body {
+  background: #F3F3F3 !important;
+  overflow: hidden;
+}
+
 .auth-page-content{
-  background-color: red !important
+  justify-content: start !important;
+  padding-top: 40px;
 }
 
-.email-form.auth-form{
-    width: 100%!important;
-    max-width: 100%!important;
-    padding: 104px 61px 55px 62px!important;
-    margin-top: 238px!important;
-    z-index: 2!important;
-    border-radius: 20px!important;
-    border: 3px solid #1B1B1B!important;
-    background: #F3F3F3!important;
-    display: block!important;
-    position: relative!important;
+.auth-page-content .email-form no-padding{
+  background: #F3F3F3 !important;
 }
 
-.email-form.auth-form .title{
-    text-transform: uppercase!important;
-    font-weight: 500!important;
-    font-size: 40px!important;
-    color: #1B1B1B!important;
+.auth-page-content .t-placeholder .ng-star-inserted{
+  color: #A0A0A0;
+
+text-align: center;
+/* text 2 */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
-.email-form.auth-form .sub-title{
-    font-size: 40px!important;
-    font-weight: 400!important;
-    line-height: 120%!important;
-    margin-top: 28px!important;
-    margin-bottom: 0!important;
-    color: #1B1B1B!important;
+.auth-page-content #email-form-input{
+  border-radius: 20px !important;
+background: #F3F3F3;
 }
 
-.input-with-button{
-    flex-direction: column;
-}
-.input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child {
-    flex: 1!important;
-    margin-right: 0;
-}
+.auth-page-content  .email-form__title{color: #1B1B1B;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;}
+  
+ .auth-page-content .email-form__sub-title{
+    color: #1B1B1B;
+  text-align: center;
+  /* text 2 */
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
 
-.input-control{
-    width: 720px!important;
-    height: 104px!important;
-    margin: 49px auto 0!important;
-    font-size: 1.3em!important;
-    font-style: normal!important;
-    font-weight: 400!important;
-    border-radius: 20px !important;
-    background: #F3F3F3!important;
-    display: block!important;
-    text-align: center!important;
-}
+  .auth-page-content .email-form{
+    background: #F3F3F3 !important;
+  }
 
-.ng-star-inserted{
-    width: 732px!important;
-    margin: 49px 0 auto!important;
-    display: block!important;
-    margin-left: calc(50% - 366px)!important;
-    display: inline-flex!important;
-    flex-direction: column!important;
-    justify-content: center!important;
-    align-items: center!important;
-    gap: 10px!important;
-    font-weight: 400!important;
-    border-radius: 20px !important;
-    font-size: 2.6em!important;
-    letter-spacing: -3px!important;
-    text-transform: uppercase!important;
-    color: #F3F3F3!important;
-    cursor: pointer!important;
-    transition: all .05s linear!important;
-    border: none!important;
-    height: 142px!important;
-}
-
-.t-wrapper._no-active._no-hover{
-    background-color: #1B1B1B!important;
-    color: #F3F3F3!important;
-    font-size: 80px!important;
-    width: 720px !important;
-    font-weight: 500!important;
-    line-height: normal!important;
-    letter-spacing: -3px!important;
-    text-transform: uppercase!important;
+  .auth-page-content input[type="email"]{
     padding: 24px 80px !important;
+    color: #1B1B1B;
+
+text-align: center;
+/* text 2 */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+.auth-page-content  .email-form__submit-button, .auth-page-content  .email-form__submit-button .t-wrapper{
+    border-radius: 20px;
+  background: #1B1B1B;
+    display: inline-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+transition: all .05s linear;
+  }
+
+.auth-page-content  .email-form__submit-button:hover, .auth-page-content  .email-form__submit-button .t-wrapper:hover{
+  background-color: #F3F3F3;
+  color: #1B1B1B;
+}
+
+.auth-page-content  .email-form__submit-button:hover .t-content, .auth-page-content  .email-form__submit-button .t-wrapper:hover .t-content{
+  background-color: #F3F3F3;
+  color: #1B1B1B;
+}
+
+  .auth-page-content  .email-form {max-width: none !important;}
+
+.auth-page-content .email-form__input-with-button div:has(#email-form-submit-button){
+  position: absolute;
+  top: calc(100% + 49px);
+}
+
+.auth-page-content  .t-placeholder .ng-star-inserted {color: #A0A0A0;
+
+  text-align: center;
+  /* text 2 */
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
+
+  .email-form__input-with-button>div:nth-child(2)>button{
     border-radius: 20px !important;
-    transition: all .1s linear !important;
-}
+  }
 
-.t-wrapper._no-active._no-hover:hover{
-    background-color: #F3F3F3!important;
-    color: #1B1B1B !important;
-}
+  #email-form-submit-button .t-content{
+    background-color: transparent;
+    color: #F3F3F3;
+text-align: center;
+/* button 1 */
+font-family: Raleway;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -3px;
+text-transform: uppercase;
+  }
 
-.tui-primitive-textfield__placeholder{
-    display: none !important;
-}
-
-.t-textfield._invalid{
-    height: 104px!important;
-    max-height: none!important;
-}
-
-.error{
-    width: 720px!important;
-    max-width: 0 auto!important;
-}
-
-.ng-star-inserted {
-    width: 720px!important;
-    margin: 0 auto!important;
-    display: flex!important;
-    margin-top: 49px!important;
-}
-
-.tui-autofill._no-active._invalid{
-    border-radius: 20px!important;
-}
-
-._focused._invalid._no-active.tui-autofill{
-    background-color: #F3F3F3!important;
-}
-
-.ng-tns-c194-6.ng-star-inserted, .t-placeholder.ng-star-inserted{
- display: none !important;     
-}
-
-.input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child > .input-control[_ngcontent-ccf-c196]{
+  .auth-page-content #email-form-submit-button{
+    height: auto;
+    padding: 20px;
     border-radius: 20px !important;
-    font-size: 40px !important;
-    border: 3px solid #1B1B1B!important;
-}
+  }
 
-.t-input.ng-pristine.ng-valid.ng-touched{
-    padding: 0 !important;
-    font-size: 40px !important;
-}
+  #email-form-input .t-textfield{
+height: 104px;
+width: 721px;
+margin: 0 auto;
+max-height: none;
+  }
 
-.link-row.ng-star-inserted{
-    display: none !important;
-}
+  .auth-page-content .tui-autofill{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    border: 3px solid #1B1B1B;
+  }
 
-.email-form.auth-form{
-    padding: 71px 20px !important;
-}
+  .auth-page-content .tui-autofill._invalid.focused{
+    border: none;
+  }
+  
+  .auth-page-content .tui-autofill  .t-placeholder{
+    color: #A0A0A0 !important;
 
-.input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child{
-    margin-bottom: 0 !important;
-}
-@media screen and (max-width: 850px){
-    .ng-star-inserted, .input-control{
-        width: 100%!important;
-    }
+/* text 2 */
+font-family: Raleway !important;
+font-size: 40px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: normal !important;
+  }
 
-    .t-input.ng-pristine.ng-valid.ng-touched{
-        padding: 0 !important;
-        font-size: 16px !important;
-    }
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
+    color: #A0A0A0 !important;
+    transform: translateY(-30px) !important;
+    font-size: 20px !important;
+  }
 
-    .ng-star-inserted{
-        height: auto !important;
-        margin-top: 15px !important;
-    }
+  .auth-page-content .email-form{
+    position: relative;
+  }
 
-    .input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child > .input-control[_ngcontent-ccf-c196]{
-        border-radius: 20px !important;
-        font-size: 16px !important;
-        border: 1px solid #1B1B1B!important;
-    }
+  .auth-page-content .tui-autofill .t-content{
+    overflow: visible !important;
+  }
+  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
+    width: 721px;
+    margin: 0 auto;
+  }
 
-    .input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child > .input-control[_ngcontent-ccf-c196]{
-        border-radius: 10px !important;
-        height: 56px !important;
-        margin-top: 15px !important;
-    }
+  [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
+    transition: border .1s linear;
+    border: 3px solid #FF1C1C !important;
+  }
 
-    .input-with-button[_ngcontent-ccf-c196] div[_ngcontent-ccf-c196]:first-child > .input-control[_ngcontent-ccf-c196] *{
-        height: 100% !important;
-    }
-
-    .tui-autofill._no-active._invalid, .t-wrapper._no-active._no-hover{
-        border-radius: 10px!important;
-    }
-
-    .t-textfield ._invalid{
-        border-radius: 10px !important;
-    }
-
-    .email-form.auth-form .title{
-        font-size: 18px !important;
-        line-height: 120% !important;
-        max-width: 80% !important;
-        margin: 0 auto;
-    }
-
-    .email-form.auth-form .sub-title{
-        font-size: 16px !important;
-        line-height: 120% !important;
-        margin-top: 15px !important;
-    }
-
-    .t-wrapper._no-active._no-hover{
-        padding: 18px 10px !important;
-        font-size: 30px !important;
-        line-height: 35px !important;
-        width: 100% !important;
-        letter-spacing: -2px !important;
-    }
-
-    
-}
+  .tui-autofill._invalid{
+    --tui-focus: transparent !important;
+  }
