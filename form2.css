@@ -262,6 +262,10 @@ max-height: none;
   display: none;
 }
 
+.password-form  .t-src{
+  display: none !important;
+}
+
 .password-form .t-icon{
   background-image: url('./eyeClosed.svg');
   width: 64.906px;
@@ -269,6 +273,10 @@ max-height: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.password-form:has(input[type='text']) .t-icon{
+  background-image: url('./eye.svg');
 }
 
 .auth-page-content .password-form__input-with-button div:has(#password-form-submit-button){
