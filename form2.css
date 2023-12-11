@@ -79,7 +79,7 @@ background: #F3F3F3;
   .email-form__input-with-button{
     flex-direction: column !important;
     width: 720px !important;
-    margin-top: 49px !important;
+    margin: 49px auto 0 !important;
   }
   .auth-page-content .email-form{
     background: #F3F3F3 !important;
