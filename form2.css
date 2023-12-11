@@ -130,7 +130,11 @@ max-height: none;
     padding: 20px;
     background-color: transparent !important;
     box-sizing: border-box;
-    border: 3px solid #1B1B1B
+    border: 3px solid #1B1B1B;
+  }
+
+  .auth-page-content .tui-autofill._invalid.focused{
+    border: none;
   }
   
   .auth-page-content .tui-autofill  .t-placeholder{
