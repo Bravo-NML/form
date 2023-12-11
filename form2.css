@@ -275,6 +275,22 @@ max-height: none;
   background-position: center;
 }
 
+.password-form .t-input {
+  padding-left: 20px !important;
+}
+
+.password-form .t-placeholder_raised{
+  
+}
+
+.password-form .t-placeholder{
+  color: #A0A0A0;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .password-form .tui-autofill{
   font-size: 40px;
   height: auto;
@@ -287,6 +303,10 @@ max-height: none;
 
 .password-form:has(input[type='text']) .t-icon{
   background-image: url('./eye.svg');
+}
+
+.password-form .tui-autofill{
+  padding-top: 30px 7px 10px;
 }
 
 .auth-page-content .password-form__input-with-button div:has(#password-form-submit-button){
