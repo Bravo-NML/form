@@ -78,7 +78,7 @@ background: #F3F3F3;
   }
 
   .auth-page-content input[type="email"]{
-    padding: 24px 80px !important;
+    padding: 24px 80px  10px!important;
     color: #1B1B1B;
 
 text-align: center;
@@ -171,6 +171,7 @@ max-height: none;
     height: 100%;
     width: 100%;
     padding: 20px;
+    padding-top: 40px;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
@@ -259,7 +260,7 @@ max-height: none;
   display: none;
 }
 
-.password-form  tui-svg{
+.password-form {
   display: none !important;
 }
 
