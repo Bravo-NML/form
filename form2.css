@@ -43,19 +43,44 @@ background: #F3F3F3;
   font-weight: 400;
   line-height: normal;
   }
+
+  .auth-page-content input[type="email"]{
+    padding: 24px 80px !important;
+    color: #A0A0A0;
+
+text-align: center;
+/* text 2 */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
   
 .auth-page-content  .email-form__submit-button{
     border-radius: 20px;
   background: #1B1B1B;
     display: inline-flex;
-  padding: 24px 80px;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
   }
 
-.auth-page-content div:has(#email-form-submit-button){
+  .auth-page-content  .email-form {max-width: none !important;}
+
+.auth-page-content .email-form__input-with-button div:has(#email-form-submit-button){
   position: absolute;
   top: calc(100% + 49px);
 }
+
+.auth-page-content  .t-placeholder .ng-star-inserted {color: #A0A0A0;
+
+  text-align: center;
+  /* text 2 */
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
