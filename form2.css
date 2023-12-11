@@ -383,7 +383,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.auth-page-content .confirm-form #confirm-form-go-back-row{
+[_nghost-ldx-c163], .auth-page-content .confirm-form #confirm-form-go-back-row{
   margin-top: 49px !important;
   color: #5574DD !important;
 
