@@ -171,3 +171,7 @@ line-height: normal !important;
     width: 721px;
     margin: 0 auto;
   }
+
+  [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
+    border: none !important;
+  }
