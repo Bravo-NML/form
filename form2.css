@@ -206,7 +206,7 @@ max-height: none;
 
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
-    transform: translateY(-23px) !important;
+    transform: translateY(-25px) !important;
     font-size: 20px !important;
   }
 
@@ -282,7 +282,7 @@ max-height: none;
 }
 
 .back-button .t-content{
-  display: none important;
+  display: none !important;
 }
 
 .password-form {
@@ -296,11 +296,6 @@ max-height: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.password-form .t-input {
-  padding-left: 20px !important;
-  padding-top: 20px !important;
 }
 
 .password-form .t-placeholder{
@@ -462,7 +457,7 @@ margin-left: -6px;
 }
 
 
-.verification-form .title, .verification-form .sub-title{
+.verification-form .title, .verification-form .sub-title, .sub-title, .title{
   color: #1B1B1B !important;
 text-align: center !important;
 /* text 2 */
@@ -471,6 +466,7 @@ font-size: 40px !important;
 font-style: normal !important;
 font-weight: 400 !important;
 line-height: normal !important;
+max-width: 90% !important;
 }
 
 .verification-form .title{
@@ -563,4 +559,43 @@ tui-input{
   font-size: 20px !important;
   width: auto !important;
   text-align: center !important;
+}
+
+.sms-code-input{
+  width: 272px !important;
+}
+
+.t-loader{
+  stroke: rgba(155, 159, 255, 0.30) !important;
+}
+
+/* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    
+/* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    
+/* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */    /* REGISTER FORM */
+
+.register-form{
+  background-color: transparent !important; 
+  max-width: none !important;
+}
+
+:root {
+  --tui-link: #9B9FFF;
+}
+
+.agreement-block{
+  font-size: 20px !important;
+  line-height: 130% !important;
+}
+
+.register-form .tui-form__row_multi-fields{
+  height: 104px;
+}
+
+.auth-page-content .register-form .tui-form__button{
+  font-size: 40px !important;
+  max-height: 100px !important;
+}
+
+.t-input{
+  padding-top: 30px !important;
 }
