@@ -460,3 +460,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.verification-form .tui-form__buttons{
+  margin-top: 49px;
+}
+
+.verification-form  .ng-untouched {
+  height: 104px;
+}
