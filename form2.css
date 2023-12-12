@@ -497,6 +497,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 
 .verification-form  .tui-group{
   justify-content: center;
+  gap: 8px !important;
 }
 
 .t-flag {
