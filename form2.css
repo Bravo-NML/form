@@ -255,7 +255,7 @@ max-height: none;
   color: #5574DD;
 }
 
-.password-form .password-form__back-button .t-wrapper, .back-button .t-wrapper{
+.password-form .password-form__back-button .t-wrapper,.verification-form .back-button .t-wrapper{
   background-color: transparent !important;
   background-image: url('./arrow.svg') !important;
   background-size: contain !important;
@@ -263,7 +263,7 @@ max-height: none;
   background-position: center;
 }
 
-.password-form .password-form__back-button .t-content, .back-button .t-wrapper  .t-content{
+.password-form .password-form__back-button .t-content,.verification-form .back-button .t-wrapper {
   display: none;
 }
 
