@@ -463,5 +463,17 @@ line-height: normal !important;
   font-size: 40px !important;
   font-style: normal !important;
   font-weight: 400 !important;
-  }
+}
 
+.t-country-select .tui-autofill{
+  width: 218px;
+}
+
+div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"]{
+  height: 104px !important;
+
+}
+
+.tui-autofill .t-content{
+  padding: 0 !important;
+}
