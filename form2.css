@@ -499,3 +499,11 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
   height: 26px !important;
   width: 21px !important;
 }
+
+.verification-form  .tui-form__buttons{
+  justify-content: center !important;
+}
+
+.tui-form__button:hover .t-wrapper{
+  background-color: transparent !important;
+}
