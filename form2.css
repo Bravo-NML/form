@@ -320,6 +320,10 @@ line-height: normal;
   border-bottom-left-radius: 20px!important;
 }
 
+.auth-page-content button{
+  border-radius: 20px !important;
+}
+
 #password-form-submit-button .t-content{
   font-family: Raleway;
   font-size: 80px;
@@ -400,4 +404,16 @@ line-height: normal !important;
   align-items: center;
   flex-direction: column;
   padding: 0 !important;
+}
+
+/* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  
+/* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  
+/* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  
+
+.verification-form{
+  background: transparent !important;
+}
+
+.verification-form button .t-wrapper:active{
+  background: transparent;
 }
