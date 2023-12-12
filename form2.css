@@ -181,6 +181,7 @@ max-height: none;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
+    height: 104px;
   }
 
   .auth-page-content .tui-autofill._invalid.focused{
