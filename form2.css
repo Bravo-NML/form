@@ -492,6 +492,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 
 .t-flag {
   width: 101px !important;
+  height: auto !important;
 }
 
 .verification-form  .t-icon .t-src svg{
