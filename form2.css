@@ -450,6 +450,15 @@ font-weight: 400 !important;
 line-height: normal !important;
 }
 
+.verification-form .title{
+  padding: 0 auto !important;
+}
+
+.verification-form .sub-title{
+  padding-bottom: 20px !important;
+  padding-top: 28px !important;
+}
+
 .verification-form .tui-form__buttons{
   margin-top: 49px;
 }
