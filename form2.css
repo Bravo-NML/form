@@ -438,19 +438,8 @@ padding: 0 !important;
 margin-left: -6px;
 }
 
-.verification-form .title{
-  color: #1B1B1B;
-text-align: center;
-/* text 1 AA */
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: uppercase;
-}
 
-.verification-form .sub-title{
+.verification-form .title, .verification-form .sub-title{
   color: #1B1B1B !important;
 text-align: center !important;
 /* text 2 */
@@ -468,4 +457,11 @@ line-height: normal !important;
 .verification-form  .ng-untouched {
   height: 104px;
 }
+
+.tui-autofill input{
+  font-family: Raleway !important;
+  font-size: 40px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  }
 
