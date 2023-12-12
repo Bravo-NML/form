@@ -579,7 +579,7 @@ tui-input{
 }
 
 :root {
-  --tui-link: #9B9FFF;
+  --tui-link: #9B9FFF !important;
 }
 
 .agreement-block{
