@@ -266,7 +266,7 @@ max-height: none;
   background-position: center;
 }
 
-.password-form .password-form__back-button .t-content,.verification-form .back-button .t-wrapper {
+.password-form .password-form__back-button .t-content,.verification-form .back-button .t-content {
   display: none;
 }
 
