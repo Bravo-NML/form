@@ -424,8 +424,8 @@ line-height: normal !important;
   background: transparent;
 }
 
-.auth-page-content .verification-for .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
-.auth-page-content .verification-for .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child
+.auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
+.auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child
 {
   border-top-right-radius:  20px !important;
   border-bottom-right-radius:  20px !important;
