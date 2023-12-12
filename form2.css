@@ -214,7 +214,10 @@ max-height: none;
   }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
     width: 721px;
-    margin: 0 auto;
+    margin: 8px auto 0;
+    font-size: 20px;
+    line-height: normal;
+    color: #FF1C1C;
   }
 
   [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
