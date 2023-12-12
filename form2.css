@@ -418,7 +418,7 @@ line-height: normal !important;
 
 .auth-page-content .verification-form{
   background: transparent !important;
-  max-width: 943px !important;
+  max-width: none !important;
 }
 
 .verification-form button .t-wrapper:active{
@@ -476,4 +476,26 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 
 .tui-autofill .t-content{
   padding: 0 !important;
+}
+
+.t-country-select{
+  width: 218px !important;
+}
+
+.t-input-phone{
+  max-width: 721px !important;
+}
+
+.verification-form  .tui-group{
+  justify-content: center;
+}
+
+.t-flag {
+  width: 101px !important;
+}
+
+.verification-form  .t-icon .t-src svg{
+  max-height: none !important;
+  height: 26px !important;
+  width: 21px !important;
 }
