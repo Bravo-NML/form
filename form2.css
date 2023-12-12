@@ -463,8 +463,8 @@ line-height: normal !important;
   margin-top: 49px;
 }
 
-.verification-form  .ng-untouched {
-  height: 104px;
+.verification-form  tui-input-phone-international{
+  height: 104px !important;
 }
 
 .tui-autofill input{
