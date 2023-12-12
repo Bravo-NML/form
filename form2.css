@@ -436,3 +436,26 @@ line-height: normal !important;
 padding: 0 !important;
 margin-left: -6px;
 }
+
+.verification-form .title{
+  color: #1B1B1B;
+text-align: center;
+/* text 1 AA */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.verification-form .sub-title{
+  color: var(--black, #1B1B1B);
+text-align: center;
+/* text 2 */
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
