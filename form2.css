@@ -12,6 +12,7 @@
   font-style: normal;
   font-display: auto;
   font-weight: 500;
+  
 }
 
 @font-face{
@@ -30,10 +31,14 @@
 .auth-page-content *{
   /* text 2 */
 font-family: Raleway !important;
+
 }
 .auth-page-content{
-  justify-content: start !important;
-  padding-top: 40px;
+  padding-top: 40px !important;
+  justify-content: center!important;
+  align-items: center !important;
+    flex-direction: column !important;
+    height: 100% !important;
 }
 
 .auth-page-content .email-form no-padding{
@@ -422,6 +427,11 @@ line-height: normal !important;
 .auth-page-content .verification-form{
   background: transparent !important;
   max-width: none !important;
+  height: 100% !important;
+  max-height: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .verification-form button .t-wrapper:active{
