@@ -320,13 +320,13 @@ line-height: normal;
   border-bottom-left-radius: 20px!important;
 }
 
-.auth-page-content button{
+.auth-page-content .tui-form__button{
   border-radius: 20px !important;
   font-size: 80px !important;
   line-height: 94px !important;
   padding: 24px 80px !important;
   text-transform: uppercase;
-  height: 142px;
+  height: 142px !important;
 }
 
 #password-form-submit-button .t-content{
