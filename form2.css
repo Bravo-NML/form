@@ -781,5 +781,13 @@ tui-input{
   .verification-form .tui-form__buttons{
     margin-top: 32px !important;
   }
+
+  .back-button {
+    width: 64px !important;
+      height: 64px !important;
+      background-color: transparent !important;
+      left: 0 !important;
+      top: 0 !important;
+  }
   
 }
