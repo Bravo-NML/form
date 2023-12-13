@@ -27,8 +27,8 @@
   --tui-link: #9B9FFF !important;
   --custom-font-size-s: 20px;
   --custom-font-size-m: 40px;
-  --custom-font-size-s-m: 16px;
-  --custom-font-size-m-m: 18px;
+  --custom-font-size-s-m: 4.5vw;
+  --custom-font-size-m-m: 5.4vw;
 }
 
 .auth-page-content, html, body {
