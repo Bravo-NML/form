@@ -893,7 +893,7 @@ tui-input,
 }
 
 .set-password-form-content .form{
-  margin-top: 15px;
+  margin-top: 15px !important;
 }
 
 }
