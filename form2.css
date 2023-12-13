@@ -374,10 +374,6 @@ line-height: normal;
   background-image: url('./eye.svg');
 }
 
-.auth-page-content .password-form__input-with-button div:has(#password-form-submit-button){
-  position: absolute;
-  top: calc(100% + 49px);
-}
 .password-form__input-with-button>div:nth-child(2)>button {
   border-top-left-radius: 20px!important;
   border-bottom-left-radius: 20px!important;
@@ -416,7 +412,7 @@ padding: 24px 80px;
 }
 
 .auth-page-content .password-form{
-  max-width: 817 !important;
+  max-width: 817px !important;
 }
 
 .auth-page-content .password-form__input-with-button{
@@ -902,4 +898,12 @@ tui-input,
 .auth-page-content .verification-form .tui-autofill{
   padding: 0 5px 0 0 !important;
 }
+
+.auth-page-content .tui-form__button{
+  padding: 0px !important;
+  text-transform: uppercase;
+  width: 100% !important;
+  height: 70px !important;
+}
+
 }
