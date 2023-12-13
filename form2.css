@@ -818,4 +818,8 @@ tui-input{
     margin-left: -5px !important;
   }
 
+  tui-input-phone{
+    width: 222px !important;
+  }
+
 }
