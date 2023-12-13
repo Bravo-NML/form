@@ -924,6 +924,7 @@ tui-input,
 
 .password-form__input-with-button > div{
   margin: 0 auto !important;
+  width: 100% !important;
 }
 .auth-page-content #password-form-submit-button{
   height: 70px !important;
