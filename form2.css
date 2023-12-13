@@ -622,7 +622,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 }
 
 tui-dropdown{
-  left: 202px !important;
+  left: calc(50% - 100px) !important;
   width: 952px !important;
   top: 30px !important;
   max-height: none !important;
