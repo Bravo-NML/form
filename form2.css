@@ -352,7 +352,6 @@ line-height: normal;
 .password-form .tui-autofill{
   font-size: var(--custom-font-size-m);
   line-height: 40px;
-  padding: 30px 30px 10px 7px;
   height: var(--custom-height-m);
 }
 
@@ -418,6 +417,13 @@ padding: 24px 80px;
 .auth-page-content .password-form__input-with-button{
   max-width: 721px  !important;
   height: 100% !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+.password-form .link-row{
+  text-align: center;
+  font-size: var(--custom-font-size-s);
 }
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
@@ -693,7 +699,8 @@ tui-input{
   .password-form .t-placeholder,
   .auth-page-content .confirm-form__description,
   .info_resend, .no-code,
-  .agreement-block{
+  .agreement-block,
+  .password-form .link-row{
     font-size: var(--custom-font-size-s-m) !important;
   }
 
