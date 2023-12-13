@@ -208,7 +208,7 @@ text-transform: uppercase;
   }
 
   #email-form-input .t-textfield, #email-form-input .t-textfield{
-    height: 104px;
+    height: var(--custom-height-m);
     margin: 0 auto;
     max-height: none;
   }
@@ -220,7 +220,7 @@ text-transform: uppercase;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
-    height: 104px;
+    height: var(--custom-height-m);
   }
 
   .auth-page-content .tui-autofill._invalid.focused{
@@ -352,11 +352,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
 .password-form .tui-autofill{
   font-size: var(--custom-font-size-m);
   line-height: 40px;
   padding: 30px 30px 10px 7px;
-  height: 104px;
+  height: var(--custom-height-m);
 }
 
 .password-form * {
@@ -424,7 +425,7 @@ padding: 24px 80px;
 
 .auth-page-content .password-form__input-with-button{
   width: 721px  !important;
-  height: 104px !important;
+  height: var(--custom-height-m) !important;
 }
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
@@ -442,7 +443,7 @@ padding: 24px 80px;
 }
 
 tui-input-password{
-  height: 104px !important;
+  height: var(--custom-height-m) !important;
   border-radius: 20px !important;
   box-sizing: content-box !important;
 }
@@ -571,7 +572,7 @@ max-width: 90% !important;
 }
 
 .verification-form  tui-input-phone-international{
-  height: 104px !important;
+  height: var(--custom-height-m) !important;
 }
 
 .tui-autofill input{
@@ -586,7 +587,7 @@ max-width: 90% !important;
 }
 
 div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"]{
-  height: 104px !important;
+  height: var(--custom-height-m) !important;
 
 }
 
@@ -638,7 +639,7 @@ tui-dropdown{
 }
 
 tui-input{
-  height: 104px !important;
+  height: var(--custom-height-m) !important;
 }
 
 .info_resend, .no-code{
@@ -671,7 +672,7 @@ tui-input{
 }
 
 .register-form .tui-form__row_multi-fields{
-  height: 104px;
+  height: var(--custom-height-m);
 }
 
 .auth-page-content .register-form .tui-form__button{
@@ -740,7 +741,7 @@ tui-input{
   .auth-page-content .tui-autofill,
   .password-form .tui-autofill,
   .auth-page-content .password-form__input-with-button{
-    height: var(--custom-height-m-m) !important;
+    height: var(--custom-height-m) !important;
   }
   
   .t-country-select{
@@ -860,4 +861,15 @@ tui-input{
     gap: 15px ;
     max-width: 277px !important;
   }
+
+  #email-form-input .t-textfield, #email-form-input .t-textfield,
+  .auth-page-content .tui-autofill,
+.password-form .tui-autofill,
+.auth-page-content .password-form__input-with-button,
+.verification-form  tui-input-phone-international,
+div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"],
+tui-input,
+.register-form .tui-form__row_multi-fields{
+  height: var(--custom-height-m-m) !important;
+}
 }
