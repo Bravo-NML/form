@@ -27,8 +27,10 @@
   --tui-link: #9B9FFF !important;
   --custom-font-size-s: 20px;
   --custom-font-size-m: 40px;
+  --custom-font-size-l: 80px;
   --custom-font-size-s-m: 4.5vw;
   --custom-font-size-m-m: 5.4vw;
+  --custom-font-size-l-m: 8.6vw;
 }
 
 .auth-page-content, html, body {
@@ -622,5 +624,10 @@ tui-input{
   .password-form .tui-autofill,
   .confirm-form #confirm-form-title{
     font-size: var(--custom-font-size-m-m) !important;
+  }
+
+  #email-form-submit-button .t-content,
+  #password-form-submit-button .t-content{
+    font-size: var(--custom-font-size-l-m) !important;
   }
 }
