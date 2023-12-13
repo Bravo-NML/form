@@ -836,4 +836,28 @@ tui-input{
   .auth-page-content input[type="email"]{
     padding-bottom: 10px !important;
   }
+  
+  .auth-page-content .email-form {
+      position: relative !important;
+      padding: 0 important;
+      display: flex important;
+      flex-direction: column important;
+      justify-content: center important;
+      gap: 15px important;
+  }
+  
+  .email-form__input-with-button * {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .email-form__input-with-button{
+    margin-top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 15px ;
+    max-width: 277px !important;
+  }
 }
