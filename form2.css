@@ -792,7 +792,7 @@ tui-input{
   .auth-page-content .tui-form__button{
     padding: 0px !important;
     height: 70px !important;
-    width: 292px !important;
+    width: 100% !important;
   }
 
   .verification-form .tui-form__buttons{
