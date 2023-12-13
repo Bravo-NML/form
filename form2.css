@@ -682,7 +682,7 @@ tui-input{
 }
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 930px) {
   input[type="tel"]{
     padding: 20px 10px 5px 5px !important;
   }
