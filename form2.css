@@ -315,7 +315,7 @@ text-transform: uppercase;
   display: none !important;
 }
 
-.password-form .t-icon{
+.password-form .t-icon, .set-password-form .t-icon{
   background-image: url('./eyeClosed.svg');
   width: 64.906px;
   height: 45.572px;
