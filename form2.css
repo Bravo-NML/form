@@ -879,7 +879,11 @@ tui-input,
 }
 
 .t-input{
-  padding-top: 15px !important;
+  padding-top: 20px !important;
+}
+
+.set-password-form-content .t-input{
+  padding: 20px 20px 0 5px!important;
 }
 
 }
