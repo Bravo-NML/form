@@ -896,4 +896,8 @@ tui-input,
   margin-top: 15px !important;
 }
 
+.t-country-select .t-content{
+  margin-right: -12px;
+}
+
 }
