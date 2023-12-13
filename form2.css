@@ -690,6 +690,9 @@ tui-input{
   padding-top: 30px !important;
 }
 
+.password-form .password-form__back-button .t-wrapper, .back-button .t-wrapper{
+  background-color: transparent !important;
+}
 
 @media screen and (max-width: 930px) {
   input[type="tel"]{
