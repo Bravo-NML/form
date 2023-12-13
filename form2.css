@@ -311,6 +311,8 @@ text-transform: uppercase;
   width: 64px !important;
     height: 64px !important;
     background-color: transparent !important;
+    left: 0 !important;
+      top: 0 !important;
 }
 
 .back-button .t-content{
@@ -516,6 +518,7 @@ line-height: normal !important;
     justify-content: center;
     align-items: center;
 }
+
 .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
 .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child
 {
@@ -786,8 +789,17 @@ tui-input{
     width: 64px !important;
       height: 64px !important;
       background-color: transparent !important;
-      left: 0 !important;
-      top: 0 !important;
+  }
+
+  .verification-form .sub-title{
+    padding: 0 !important;
+  }
+
+  .verification-form .input-container{
+    gap: 15px;
   }
   
+  .verification-form .input-container *{
+    margin: 0 auto !important;
+  }
 }
