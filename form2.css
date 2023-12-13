@@ -850,7 +850,10 @@ tui-input{
   
   .email-form__input-with-button * {
     margin: 0 !important;
-    width: 100%;
+  }
+
+  .email-form__input-with-button:first-child, .email-form__input-with-button:last-child{
+    width: 100% !important;
   }
 
   .email-form__input-with-button{
