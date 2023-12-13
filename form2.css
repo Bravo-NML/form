@@ -796,7 +796,7 @@ tui-input{
   }
 
   .verification-form{
-    padding: 0;
+    padding: 0 !important;
   }
 
   .verification-form .input-container{
