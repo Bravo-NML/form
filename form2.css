@@ -403,6 +403,11 @@ padding: 24px 80px;
   height: auto;
 }
 
+.auth-page-content button{
+  max-width: 90vw !important;
+  margin: 0 auto !important;
+}
+
 .auth-page-content .password-form{
   max-width: 817 !important;
 }
