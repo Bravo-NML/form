@@ -868,7 +868,6 @@ tui-input{
   #email-form-input .t-textfield, #email-form-input .t-textfield,
   .auth-page-content .tui-autofill,
 .password-form .tui-autofill,
-.auth-page-content .password-form__input-with-button,
 .verification-form  tui-input-phone-international,
 div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"],
 tui-input,
