@@ -761,4 +761,28 @@ tui-input{
   [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
     border-width: 1px !important;
   }
+
+  tui-dropdown{
+    left: 24vw !important;
+    width: 290px !important;
+    top: 10% !important;
+    max-height: none !important;
+    height: 250px !important;
+    border: 3px solid #1B1B1B !important;
+  }
+
+  .auth-page-content .tui-form__button{
+    border-radius: 20px !important;
+    font-size: var(--custom-font-size-l)!important;
+    line-height: 94px !important;
+    padding: 0px !important;
+    text-transform: uppercase;
+    height: 70px !important;
+    width: 292px !important;
+  }
+
+  .verification-form .tui-form__buttons{
+    margin-top: 32px !important;
+  }
+  
 }
