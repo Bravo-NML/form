@@ -817,6 +817,6 @@ tui-input{
   }
 
   .auth-page-content{
-    width: calc(100% - 20px) !important;
+    width: calc(100% - 10px) !important;
   }
 }
