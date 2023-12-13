@@ -429,6 +429,10 @@ padding: 24px 80px;
   position: static !important;
 }
 
+.auth-page-content .back-button .t-wrapper{
+background-color: transparent !important;
+}
+
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
