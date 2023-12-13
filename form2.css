@@ -435,7 +435,7 @@ padding: 24px 80px;
   position: static !important;
 }
 
-.auth-page-content .back-button .t-wrapper{
+.auth-page-content .back-button .t-wrapper, .auth-page-content .back-button button{
 background-color: transparent !important;
 }
 
