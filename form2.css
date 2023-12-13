@@ -555,6 +555,10 @@ max-width: 90% !important;
   padding-top: 28px !important;
 }
 
+.sub-title{
+  text-transform: none;
+}
+
 .verification-form .tui-form__buttons{
   margin-top: 49px;
 }
