@@ -499,6 +499,10 @@ line-height: normal !important;
 /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  
 /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  /* PHONE VERIFICATION */  
 
+tui-input-phone{
+  width: 793px !important;
+}
+
 .auth-page-content .verification-form{
   background: transparent !important;
   max-width: none !important;
@@ -683,7 +687,7 @@ input[type="tel"]{
 
 @media screen and (max-width: 1050px) {
   input[type="tel"]{
-    padding: 20px 10px 5px 5px;
+    padding: 20px 10px 5px 5px !important;
   }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
