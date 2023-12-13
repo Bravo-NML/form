@@ -425,6 +425,10 @@ padding: 24px 80px;
   border-radius: var(--custom-br-m)!important;
 }
 
+.password-form{
+  position: static !important;
+}
+
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
