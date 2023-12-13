@@ -416,7 +416,7 @@ padding: 24px 80px;
 }
 
 .auth-page-content .password-form__input-with-button{
-  width: 721px  !important;
+  max-width: 721px  !important;
   height: 100% !important;
 }
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
@@ -815,7 +815,7 @@ tui-input{
   }
 
   .auth-page-content{
-    width: calc(100% - 10px) !important;
+    width: 100% !important;
   }
 
   .verification-form .t-textfield-icon{
