@@ -687,7 +687,7 @@ tui-input{
 
 @media screen and (max-width: 930px) {
   input[type="tel"]{
-    padding: 20px 10px 5px 5px !important;
+    padding: 10px 20px !important;
   }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
