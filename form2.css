@@ -317,12 +317,21 @@ text-transform: uppercase;
 }
 
 .password-form .t-icon, .set-password-form .t-icon{
-  background-image: url('./eyeClosed.svg');
-  width: 64.906px;
-  height: 45.572px;
+  width: 64.906px !important;
+  height: 45.572px  !important;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.password-form input[type="text"] + .t-content .t-icon,
+.set-password-form input[type="text"] + .t-content .t-icon{
+  background-image: url('./eye.svg');
+}
+
+.password-form input[type="password"] + .t-content .t-icon,
+.set-password-form input[type="password"] + .t-content .t-icon{
+  background-image: url('./eyeClosed.svg');
 }
 
 .password-form .t-placeholder{
@@ -348,7 +357,13 @@ line-height: normal;
   top: 10px;
 }
 
-.password-form:has(input[type='text']) .t-icon{
+
+.password-form .t-src, .set-password-form .t-src{
+  display: none;
+}
+
+.password-form:has(input[type='text']) .t-icon,
+.set-password-form:has(input[type='text']) .t-icon{
   background-image: url('./eye.svg');
 }
 
@@ -408,7 +423,7 @@ padding: 24px 80px;
 
 .set-password-form{
   background-color: transparent !important;
-  max-width: 721px !important;
+  max-width: 794px !important;
 }
 
 tui-input-password{
