@@ -880,6 +880,11 @@ tui-input,
 
 .t-input{
   padding-top: 20px !important;
+  padding-left: 20px !important;
+}
+
+.auth-page-content .tui-autofill{
+  padding: 10px 20px !important;
 }
 
 .set-password-form-content .t-input{
