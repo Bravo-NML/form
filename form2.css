@@ -417,7 +417,7 @@ padding: 24px 80px;
 
 .auth-page-content .password-form__input-with-button{
   width: 721px  !important;
-  height: var(--custom-height-m) !important;
+  height: 100% !important;
 }
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
@@ -732,8 +732,7 @@ tui-input{
   .register-form .tui-form__row_multi-fields,
   #email-form-input .t-textfield, #email-form-input .t-textfield,
   .auth-page-content .tui-autofill,
-  .password-form .tui-autofill,
-  .auth-page-content .password-form__input-with-button{
+  .password-form .tui-autofill{
     height: var(--custom-height-m) !important;
   }
   
