@@ -710,6 +710,7 @@ tui-input{
 
   .auth-page-content .tui-autofill{
     height: 56px;
+    padding: 7px;
   }
   
 }
