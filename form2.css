@@ -49,6 +49,7 @@
 font-family: Raleway !important;
 
 }
+
 .auth-page-content{
   padding-top: 40px !important;
   justify-content: center!important;
@@ -509,6 +510,12 @@ line-height: normal !important;
   background: transparent;
 }
 
+.verification-form .input-container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
 .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child
 {
