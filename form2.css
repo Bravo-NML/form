@@ -110,7 +110,7 @@ background: #F3F3F3;
   }
 
   .auth-page-content input[type="email"]{
-    padding: 24px 0px 0px!important;
+    padding: 24px 0px 10px!important;
     color: #1B1B1B;
 
 text-align: center;
@@ -314,6 +314,7 @@ text-transform: uppercase;
     background-color: transparent !important;
     left: 0 !important;
       top: 0 !important;
+      border: none !important;
 }
 
 .back-button .t-content{
@@ -800,6 +801,7 @@ tui-input{
     width: 30px !important;
       height: 30px !important;
       background-color: transparent !important;
+      border: none !important;
   }
 
   .verification-form .sub-title{
