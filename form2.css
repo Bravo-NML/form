@@ -878,4 +878,8 @@ tui-input,
   height: 26px  !important;
 }
 
+.t-input{
+  padding-top: 25px !important;
+}
+
 }
