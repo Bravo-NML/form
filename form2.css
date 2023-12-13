@@ -677,7 +677,14 @@ tui-input{
   padding-top: 30px !important;
 }
 
+input[type="tel"]{
+  text-align: left !important;
+}
+
 @media screen and (max-width: 1050px) {
+  input[type="tel"]{
+    padding: 20px 10px 5px 5px;
+  }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
   .auth-page-content .confirm-form__description,
