@@ -224,7 +224,7 @@ text-transform: uppercase;
 
     /* text 2 */
     font-family: Raleway !important;
-    font-size: 40px !important;
+    font-size: var(--custom-font-size-m)!important;
     font-style: normal !important;
     font-weight: 400 !important;
     line-height: normal !important;
@@ -233,7 +233,7 @@ text-transform: uppercase;
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
     transform: translateY(-25px) !important;
-    font-size: 20px !important;
+    font-size: var(--custom-font-size-s)!important;
   }
 
   .auth-page-content .email-form{
@@ -413,6 +413,7 @@ padding: 24px 80px;
 tui-input-password{
   height: 104px !important;
   border-radius: 20px !important;
+  box-sizing: content-box !important;
 }
 
 /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   
@@ -502,7 +503,7 @@ margin-left: -6px;
 text-align: center !important;
 /* text 2 */
 font-family: Raleway !important;
-font-size: 40px !important;
+font-size: var(--custom-font-size-m)!important;
 font-style: normal !important;
 font-weight: 400 !important;
 line-height: normal !important;
@@ -528,7 +529,7 @@ max-width: 90% !important;
 
 .tui-autofill input{
   font-family: Raleway !important;
-  font-size: 40px !important;
+  font-size: var(--custom-font-size-m)!important;
   font-style: normal !important;
   font-weight: 400 !important;
 }
@@ -596,7 +597,7 @@ tui-input{
 
 .info_resend, .no-code{
   color: #9B9FFF !important;
-  font-size: 20px !important;
+  font-size: var(--custom-font-size-s)!important;
   width: auto !important;
   text-align: center !important;
 }
@@ -619,7 +620,7 @@ tui-input{
 }
 
 .agreement-block{
-  font-size: 20px !important;
+  font-size: var(--custom-font-size-s)!important;
   line-height: 130% !important;
 }
 
@@ -628,7 +629,7 @@ tui-input{
 }
 
 .auth-page-content .register-form .tui-form__button{
-  font-size: 40px !important;
+  font-size: var(--custom-font-size-m)!important;
   max-height: 100px !important;
 }
 
@@ -639,7 +640,10 @@ tui-input{
 @media screen and (max-width: 1050px) {
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
-  .auth-page-content .confirm-form__description{
+  .auth-page-content .confirm-form__description,
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised,
+  .info_resend, .no-code,
+  .agreement-block{
     font-size: var(--custom-font-size-s-m) !important;
   }
 
@@ -650,7 +654,11 @@ tui-input{
   .auth-page-content  .t-placeholder .ng-star-inserted,
   .password-form .password-form__title,
   .password-form .tui-autofill,
-  .confirm-form #confirm-form-title{
+  .confirm-form #confirm-form-title,
+  .auth-page-content .tui-autofill  .t-placeholder,
+  .verification-form .title, .verification-form .sub-title, .sub-title, .title,
+  .tui-autofill input,
+  .auth-page-content .register-form .tui-form__button{
     font-size: var(--custom-font-size-m-m) !important;
   }
 
