@@ -806,4 +806,8 @@ tui-input{
   .verification-form .input-container *{
     margin: 0 auto !important;
   }
+
+  .auth-page-content{
+    width: calc(100% - 40px) !important;
+  }
 }
