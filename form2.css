@@ -734,7 +734,7 @@ tui-input{
   }
 
   .t-flag{
-    left: 7px !important;
+    left: -5px !important;
     width: 22px !important;
   }
 
@@ -754,6 +754,9 @@ tui-input{
     padding: 7px;
   }
 
+  .t-textfield-icon{
+    margin-left: -5px !important;
+  }
 
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
