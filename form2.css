@@ -402,7 +402,7 @@ padding: 24px 80px;
 }
 
 .auth-page-content #password-form-submit-button{
-  height: auto;
+  height: 142px !important;
 }
 
 .auth-page-content button{
@@ -916,6 +916,13 @@ tui-input,
   padding: 0px !important;
   text-transform: uppercase;
   width: 100% !important;
+  height: 70px !important;
+}
+
+.password-form__input-with-button > div{
+  margin: 0 auto !important;
+}
+.auth-page-content #password-form-submit-button{
   height: 70px !important;
 }
 
