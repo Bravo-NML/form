@@ -113,6 +113,21 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
   }
+
+  .auth-page-content .confirm-form__title{
+    text-transform: uppercase !important;
+  }
+  .auth-page-content .confirm-form__description{
+    color: #1B1B1B;
+
+    text-align: center;
+    /* text 2 */
+    font-family: Raleway;
+    font-size: var(--custom-font-size-s);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   
 .auth-page-content  button, .auth-page-content  button .t-wrapper{
     border-radius: 20px;
@@ -588,10 +603,6 @@ tui-input{
   max-width: none !important;
 }
 
-:root {
-  --tui-link: #9B9FFF !important;
-}
-
 .agreement-block{
   font-size: 20px !important;
   line-height: 130% !important;
@@ -611,7 +622,9 @@ tui-input{
 }
 
 @media screen and (max-width: 1050px) {
-  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, .password-form .t-placeholder{
+  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
+  .password-form .t-placeholder,
+  .auth-page-content .confirm-form__description{
     font-size: var(--custom-font-size-s-m) !important;
   }
 
@@ -630,4 +643,5 @@ tui-input{
   #password-form-submit-button .t-content{
     font-size: var(--custom-font-size-l-m) !important;
   }
+  
 }
