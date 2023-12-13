@@ -25,6 +25,7 @@
 
 :root {
   --tui-link: #9B9FFF !important;
+  --tui-autofill: rgba(155, 159, 255, 0.30) !important;
   --tui-base-01: #F3F3F3 !important;
   --custom-font-size-s: 20px;
   --custom-font-size-m: 40px;
