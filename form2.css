@@ -322,10 +322,6 @@ text-transform: uppercase;
   display: none !important;
 }
 
-.password-form {
-  display: none !important;
-}
-
 .password-form .t-icon, .set-password-form .t-icon{
   width: 64.906px !important;
   height: 45.572px  !important;
