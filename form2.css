@@ -687,7 +687,7 @@ tui-input{
 
 @media screen and (max-width: 930px) {
   input[type="tel"]{
-    padding: 10px 20px !important;
+    padding: 20px 20px 10px !important;
   }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
@@ -898,5 +898,9 @@ tui-input,
 
 .t-country-select .t-content{
   margin-right: -12px;
+}
+
+.auth-page-content .verification-form .tui-autofill{
+  padding: 0 5px 0 0 !important;
 }
 }
