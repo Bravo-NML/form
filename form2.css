@@ -772,11 +772,7 @@ tui-input{
   }
 
   .auth-page-content .tui-form__button{
-    border-radius: 20px !important;
-    font-size: var(--custom-font-size-l)!important;
-    line-height: 94px !important;
     padding: 0px !important;
-    text-transform: uppercase;
     height: 70px !important;
     width: 292px !important;
   }
