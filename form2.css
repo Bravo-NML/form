@@ -31,6 +31,7 @@
   --custom-font-size-m: 40px;
   --custom-font-size-l: 80px;
   --custom-font-size-s-m: 16px;
+  --custom-font-size-xs-m: 8px;
   --custom-font-size-m-m: 18px;
   --custom-font-size-l-m: 30px;
   --custom-br-m: 20px;
@@ -680,10 +681,13 @@ tui-input{
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
   .auth-page-content .confirm-form__description,
-  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised,
   .info_resend, .no-code,
   .agreement-block{
     font-size: var(--custom-font-size-s-m) !important;
+  }
+
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
+    font-size: var(--custom-font-size-xs-m) !important;
   }
 
   .auth-page-content .t-placeholder .ng-star-inserted,
