@@ -362,7 +362,7 @@ line-height: normal;
 
 .auth-page-content .tui-form__button{
   border-radius: 20px !important;
-  font-size: 80px !important;
+  font-size: var(--custom-font-size-l)!important;
   line-height: 94px !important;
   padding: 24px 80px !important;
   text-transform: uppercase;
@@ -663,7 +663,8 @@ tui-input{
   }
 
   #email-form-submit-button .t-content,
-  #password-form-submit-button .t-content{
+  #password-form-submit-button .t-content,
+  .auth-page-content .tui-form__button{
     font-size: var(--custom-font-size-l-m) !important;
   }
   
