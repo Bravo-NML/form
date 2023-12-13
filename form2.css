@@ -681,9 +681,6 @@ tui-input{
   padding-top: 30px !important;
 }
 
-input[type="tel"]{
-  text-align: left !important;
-}
 
 @media screen and (max-width: 920px) {
   input[type="tel"]{
