@@ -359,7 +359,7 @@ line-height: normal;
 
 
 .password-form .t-src, .set-password-form .t-src{
-  display: none;
+  display: none !important;
 }
 
 .password-form:has(input[type='text']) .t-icon,
