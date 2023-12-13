@@ -50,7 +50,7 @@ font-family: Raleway !important;
 
 text-align: center;
 /* text 2 */
-font-size: 40px;
+font-size: var(--custom-font-size-m);
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -64,7 +64,7 @@ background: #F3F3F3;
 .auth-page-content  .email-form__title{color: #1B1B1B;
   text-align: center;
   font-family: Raleway;
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -75,7 +75,7 @@ background: #F3F3F3;
   text-align: center;
   /* text 2 */
   font-family: Raleway;
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -84,6 +84,7 @@ background: #F3F3F3;
   .email-form__input-with-button{
     flex-direction: column !important;
     width: 720px !important;
+    max-width: 100% !important;
     margin: 49px auto 0 !important;
   }
   .auth-page-content .email-form{
@@ -97,7 +98,7 @@ background: #F3F3F3;
 text-align: center;
 /* text 2 */
 font-family: Raleway;
-font-size: 40px;
+font-size: var(--custom-font-size-m);
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -143,7 +144,7 @@ transition: all .05s linear;
   text-align: center;
   /* text 2 */
   font-family: Raleway;
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   font-style: normal;
   font-weight: 400;
   line-height: normal;}
@@ -173,10 +174,9 @@ text-transform: uppercase;
   }
 
   #email-form-input .t-textfield, #email-form-input .t-textfield{
-height: 104px;
-width: 721px;
-margin: 0 auto;
-max-height: none;
+    height: 104px;
+    margin: 0 auto;
+    max-height: none;
   }
 
   .auth-page-content .tui-autofill{
@@ -220,7 +220,7 @@ max-height: none;
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
     width: 721px;
     margin: 8px 0 0;
-    font-size: 20px;
+    font-size: var(--custom-font-size-s);
     line-height: normal;
     color: #FF1C1C;
   }
@@ -252,7 +252,7 @@ max-height: none;
   text-align: center;
   /* text 2 */
   font-family: Raleway;
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -301,13 +301,13 @@ max-height: none;
 .password-form .t-placeholder{
   color: #A0A0A0;
 
-font-size: 20px;
+font-size: var(--custom-font-size-s);
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .password-form .tui-autofill{
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   line-height: 40px;
   padding: 30px 30px 10px 7px;
   height: 104px;
@@ -388,7 +388,7 @@ padding: 24px 80px;
   color:  #1B1B1B;
   text-align: center;
   /* text 2 */
-  font-size: 40px;
+  font-size: var(--custom-font-size-m);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -598,4 +598,8 @@ tui-input{
 
 .t-input{
   padding-top: 30px !important;
+}
+
+@media screen and (max-width: 1050px) {
+
 }
