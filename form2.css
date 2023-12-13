@@ -536,6 +536,7 @@ text-align: center !important;
 /* text 2 */
 font-family: Raleway !important;
 font-size: var(--custom-font-size-m)!important;
+text-transform: uppercase;
 font-style: normal !important;
 font-weight: 400 !important;
 line-height: normal !important;
