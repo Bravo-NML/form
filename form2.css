@@ -744,6 +744,10 @@ tui-input{
     border-radius: var(--custom-br-m-m) !important;
   }
 
+  .auth-page-content .back-button button {
+    border-radius: var(--custom-br-m) !important;
+  } 
+
   .verification-form  tui-input-phone-international,
   div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"],
   tui-input,
@@ -773,6 +777,8 @@ tui-input{
   .verification-form tui-input-phone-international{
     height: 56px !important;
   }
+
+  
 
   .auth-page-content .tui-autofill{
     height: 56px;
