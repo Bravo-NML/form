@@ -627,7 +627,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 }
 
 tui-dropdown{
-  left: calc(50% - 340px) !important;
+  left: calc(50% - 240px) !important;
   top: calc(50% - 372px) !important;
   max-height: none !important;
   height: 250px !important;
@@ -685,7 +685,7 @@ input[type="tel"]{
   text-align: left !important;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 920px) {
   input[type="tel"]{
     padding: 20px 10px 5px 5px !important;
   }
