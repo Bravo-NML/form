@@ -727,7 +727,7 @@ tui-input{
   .auth-page-content .email-form__input-with-button>div:nth-child(2)>button, .auth-page-content .password-form__input-with-button>div:nth-child(2)>button,
   .auth-page-content #email-form-submit-button,
   .auth-page-content .tui-form__button,
-  .tui-input-password,
+  tui-input-password,
   .auth-page-content  .password-form__input-with-button>div:first-child>.input-control,
   .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
   .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child{
