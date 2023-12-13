@@ -33,6 +33,10 @@
   --custom-font-size-s-m: 16px;
   --custom-font-size-m-m: 18px;
   --custom-font-size-l-m: 30px;
+  --custom-br-m: 20px;
+  --custom-br-m-m: 20px;
+  --custom-height-m: 104px;
+  --custom-height-m-m: 48px;
 }
 
 .auth-page-content, html, body {
@@ -688,12 +692,35 @@ tui-input{
   .auth-page-content .tui-form__button{
     font-size: var(--custom-font-size-l-m) !important;
   }
+
+  .auth-page-content #email-form-input,
+  .auth-page-content  button, .auth-page-content  button .t-wrapper,
+  .auth-page-content .email-form__input-with-button>div:nth-child(2)>button, .auth-page-content .password-form__input-with-button>div:nth-child(2)>button,
+  .auth-page-content #email-form-submit-button,
+  .auth-page-content .tui-form__button,
+  .auth-page-content  .password-form__input-with-button>div:first-child>.input-control,
+  .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:last-child,
+  .auth-page-content .verification-form .tui-group_rounded.tui-group_orientation_horizontal>*[data-size=l]:first-child{
+    border-radius: var(--custom-br-m-m) !important;
+  }
+
+  .verification-form  tui-input-phone-international,
+  div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"],
+  tui-input,
+  .register-form .tui-form__row_multi-fields,
+  #email-form-input .t-textfield, #email-form-input .t-textfield,
+  .auth-page-content .tui-autofill,
+  .password-form .tui-autofill,
+  .auth-page-content .password-form__input-with-button{
+    height: var(--custom-height-m-m) !important;
+  }
   
   .t-country-select{
     width: 70px !important;
   }
 
   .t-flag{
+    left: 7px !important;
     width: 22px !important;
   }
 
@@ -712,5 +739,7 @@ tui-input{
     height: 56px;
     padding: 7px;
   }
+
+
   
 }
