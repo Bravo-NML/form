@@ -765,7 +765,6 @@ tui-input{
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
     transform: translateY(-12px) !important;
-    font-size: var(--custom-font-size-s)!important;
   }
 
   tui-dropdown,
