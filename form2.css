@@ -872,4 +872,10 @@ tui-input,
 .register-form .tui-form__row_multi-fields{
   height: var(--custom-height-m-m) !important;
 }
+
+.password-form .t-icon, .set-password-form .t-icon{
+  width: 36px !important;
+  height: 26px  !important;
+}
+
 }
