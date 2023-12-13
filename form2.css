@@ -676,7 +676,7 @@ tui-input{
   padding-top: 30px !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
   .password-form .t-placeholder,
   .auth-page-content .confirm-form__description,
