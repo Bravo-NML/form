@@ -869,7 +869,7 @@ tui-input{
 .verification-form  tui-input-phone-international,
 div[eva-automation-id="tui-input-phone-international__back__phone-verification-page"],
 tui-input,
-.register-form .tui-form__row_multi-fields{
+.register-form .tui-form__row_multi-fields, tui-input-password{
   height: var(--custom-height-m-m) !important;
 }
 
