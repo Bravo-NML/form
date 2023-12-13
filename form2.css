@@ -900,4 +900,7 @@ tui-input,
   margin-right: -12px;
 }
 
+tui-input-phone .tui-autofill{
+  padding: 10px 5px !important;
+}
 }
