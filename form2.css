@@ -757,11 +757,6 @@ tui-input{
     height: 56px;
     padding: 7px;
   }
-
-  .t-textfield-icon{
-    margin-left: -5px !important;
-  }
-
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
     color: #A0A0A0 !important;
     transform: translateY(-12px) !important;
@@ -818,4 +813,9 @@ tui-input{
   .auth-page-content{
     width: calc(100% - 10px) !important;
   }
+
+  .verification-form .t-textfield-icon{
+    margin-left: -5px !important;
+  }
+
 }
