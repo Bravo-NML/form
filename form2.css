@@ -795,6 +795,10 @@ tui-input{
     padding: 0 !important;
   }
 
+  .verification-form{
+    padding: 0;
+  }
+
   .verification-form .input-container{
     gap: 15px;
   }
