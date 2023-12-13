@@ -748,5 +748,17 @@ tui-input{
   }
 
 
-  
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
+    color: #A0A0A0 !important;
+    transform: translateY(-8px) !important;
+    font-size: var(--custom-font-size-s)!important;
+  }
+
+  tui-dropdown,
+  .auth-page-content  button:hover,
+  .auth-page-content .tui-autofill,
+  .auth-page-content .tui-autofill._invalid.focused,
+  [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
+    border-width: 1px !important;
+  }
 }
