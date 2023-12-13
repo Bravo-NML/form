@@ -110,7 +110,7 @@ background: #F3F3F3;
   }
 
   .auth-page-content input[type="email"]{
-    padding: 24px 0px 10px!important;
+    padding: 24px 0px 5px!important;
     color: #1B1B1B;
 
 text-align: center;
