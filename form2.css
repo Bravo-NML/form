@@ -778,11 +778,11 @@ input[type="tel"]{
   }
 
   tui-dropdown{
-    left: calc(50% - 146px) !important;
-    top: 10% !important;
+    left: calc(50% - 137px) !important;
+    top: calc(50% - 270px) !important;
     max-height: none !important;
-    height: 250px !important;
-    border: 3px solid #1B1B1B !important;
+    height: 150px !important;
+    border: 1px solid #1B1B1B !important;
   }
 
   .auth-page-content .tui-form__button{
