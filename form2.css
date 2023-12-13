@@ -76,7 +76,7 @@ line-height: normal;
 }
 
 .auth-page-content #email-form-input{
-  border-radius: var(---custom-br-m) !important;
+  border-radius: var(--custom-br-m) !important;
 background: #F3F3F3;
 }
 
@@ -139,7 +139,7 @@ line-height: normal;
   }
   
 .auth-page-content  button, .auth-page-content  button .t-wrapper{
-    border-radius: var(---custom-br-m);
+    border-radius: var(--custom-br-m);
   background: #1B1B1B;
     display: inline-flex;
 
@@ -184,7 +184,7 @@ transition: all .05s linear;
   line-height: normal;}
 
   .auth-page-content .email-form__input-with-button>div:nth-child(2)>button, .auth-page-content .password-form__input-with-button>div:nth-child(2)>button{
-    border-radius: var(---custom-br-m) !important;
+    border-radius: var(--custom-br-m) !important;
   }
 
   #email-form-submit-button .t-content{
@@ -204,7 +204,7 @@ text-transform: uppercase;
   .auth-page-content #email-form-submit-button{
     height: auto;
     padding: 20px;
-    border-radius: var(---custom-br-m) !important;
+    border-radius: var(--custom-br-m) !important;
   }
 
   #email-form-input .t-textfield, #email-form-input .t-textfield{
@@ -388,7 +388,7 @@ line-height: normal;
 }
 
 .auth-page-content .tui-form__button{
-  border-radius: var(---custom-br-m) !important;
+  border-radius: var(--custom-br-m) !important;
   font-size: var(--custom-font-size-l)!important;
   line-height: 94px !important;
   padding: 24px 80px !important;
@@ -430,7 +430,7 @@ padding: 24px 80px;
 .auth-page-content  .password-form__input-with-button>div:first-child>.input-control{
   border-top-right-radius: 20px!important;
   border-bottom-right-radius: 20px!important;
-  border-radius: var(---custom-br-m)!important;
+  border-radius: var(--custom-br-m)!important;
 }
 
 /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  /* SET PASSWORD  */  
@@ -443,7 +443,7 @@ padding: 24px 80px;
 }
 
 tui-input-password{
-  border-radius: var(---custom-br-m) !important;
+  border-radius: var(--custom-br-m) !important;
   height: var(--custom-height-m) !important;
   box-sizing: content-box !important;
 }
@@ -532,7 +532,7 @@ tui-input-phone{
 {
   border-top-right-radius:  20px !important;
   border-bottom-right-radius:  20px !important;
-  border-radius: var(---custom-br-m) !important;
+  border-radius: var(--custom-br-m) !important;
 }
 
 .t-country-select .t-content{
