@@ -251,7 +251,7 @@ text-transform: uppercase;
     overflow: visible !important;
   }
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
-    width: 721px;
+    width: 100%;
     margin: 8px 0 0;
     font-size: var(--custom-font-size-s);
     line-height: normal;
