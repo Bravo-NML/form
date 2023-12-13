@@ -407,6 +407,12 @@ padding: 24px 80px;
 
 .set-password-form{
   background-color: transparent !important;
+  max-width: 721px !important;
+}
+
+tui-input-password{
+  height: 104px !important;
+  border-radius: 20px !important;
 }
 
 /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   /* CONFITM FORM */   
