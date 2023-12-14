@@ -467,7 +467,7 @@ tui-input-password{
   max-width: none !important;
 }
 
-.confirm-form #confirm-form-title{
+.confirm-form .confirm-form-title{
   color:  #1B1B1B;
   text-align: center;
   /* text 2 */
@@ -489,7 +489,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-[_nghost-ldx-c163], .auth-page-content .confirm-form #confirm-form-go-back-row{
+[_nghost-ldx-c163], .auth-page-content .confirm-form .confirm-form-go-back-row{
   margin-top: 49px !important;
   color: #5574DD !important;
 
