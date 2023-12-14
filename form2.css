@@ -833,10 +833,6 @@ tui-input{
     padding: 0 !important;
   }
 
-  .verification-form .input-container{
-    gap: 15px;
-  }
-  
   .verification-form .input-container *{
     margin: 0 auto !important;
   }
@@ -952,7 +948,7 @@ tui-input,
   margin: 0 auto !important;
 }
 
-.auth-page-content .confirm-form {
+.auth-page-content .confirm-form, .auth-page-content.email-form, .verification-form .input-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
