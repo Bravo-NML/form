@@ -778,8 +778,6 @@ tui-input{
     height: 56px !important;
   }
 
-  
-
   .auth-page-content .tui-autofill{
     height: 56px;
     padding: 7px;
@@ -903,6 +901,10 @@ tui-input,
 
 .auth-page-content .tui-autofill{
   padding: 10px 20px !important;
+}
+
+.auth-page-content .tui-autofill input{
+  padding: 20px 20px 10px !important;
 }
 
 .set-password-form-content .t-input{
