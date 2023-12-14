@@ -698,7 +698,7 @@ tui-input{
   input[type="tel"]{
     padding: 20px 20px 10px !important;
   }
-  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted, 
+  
   .password-form .t-placeholder,
   .auth-page-content .confirm-form__description,
   .info_resend, .no-code,
@@ -707,7 +707,8 @@ tui-input{
     font-size: var(--custom-font-size-s-m) !important;
   }
 
-  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised{
+  .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised,
+  .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
     font-size: var(--custom-font-size-xs-m) !important;
   }
 
