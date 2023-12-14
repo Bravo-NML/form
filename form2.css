@@ -223,6 +223,10 @@ text-transform: uppercase;
     height: var(--custom-height-m);
   }
 
+  .auth-page-content .tui-autofill input{
+    text-align: left !important;
+  }
+
   .auth-page-content .tui-autofill._invalid.focused{
     border: none;
   }
