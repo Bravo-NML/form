@@ -87,6 +87,7 @@ background: #F3F3F3;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin: 0 auto;
   text-transform: uppercase;}
   
  .auth-page-content .email-form__sub-title{
@@ -960,5 +961,9 @@ tui-input,
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+.email-form__title{
+  max-width: 90% !important;
 }
 }
