@@ -944,11 +944,13 @@ tui-input,
   font-style: normal !important;
 }
 
-.auth-page-content  .confirm-form > div{
+.auth-page-content  .confirm-form > div,
+.auth-page-content .email-form > div,
+.verification-form .input-container > div{
   margin: 0 auto !important;
 }
 
-.auth-page-content .confirm-form, .auth-page-content.email-form, .verification-form .input-container {
+.auth-page-content .confirm-form, .auth-page-content .email-form, .verification-form .input-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
