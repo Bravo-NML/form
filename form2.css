@@ -947,4 +947,16 @@ tui-input,
   font-size: 16px !important;
   font-style: normal !important;
 }
+
+.auth-page-content  .confirm-form > div{
+  margin: 0 auto !important;
+}
+
+.auth-page-content .confirm-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 }
