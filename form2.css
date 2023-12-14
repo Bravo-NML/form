@@ -709,11 +709,13 @@ tui-input{
   .agreement-block,
   .password-form .link-row{
     font-size: var(--custom-font-size-s-m) !important;
+    line-height: normal;
   }
 
   .auth-page-content .tui-autofill  .t-placeholder.t-placeholder_raised,
   .t-message-text.ng-tns-c207-5.ng-trigger.ng-trigger-tuiFadeIn.ng-star-inserted{
     font-size: var(--custom-font-size-xs-m) !important;
+    line-height: normal;
   }
 
   .auth-page-content .t-placeholder .ng-star-inserted,
@@ -729,12 +731,14 @@ tui-input{
   .tui-autofill input,
   .auth-page-content .register-form .tui-form__button{
     font-size: var(--custom-font-size-m-m) !important;
+    line-height: normal;
   }
 
   #email-form-submit-button .t-content,
   #password-form-submit-button .t-content,
   .auth-page-content .tui-form__button{
     font-size: var(--custom-font-size-l-m) !important;
+    line-height: normal;
   }
 
   .auth-page-content #email-form-input,
