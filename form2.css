@@ -943,4 +943,8 @@ tui-input,
   height: 70px !important;
 }
 
+.auth-page-content .confirm-form #confirm-form-go-back-row{
+  font-size: 16px !important;
+  font-style: normal !important;
+}
 }
