@@ -998,7 +998,7 @@ tui-hint {
 }
 
 tui-input-phone{
-  width: auto !important;
+  width: 245px !important;
   max-width: none !important;
 }
 
