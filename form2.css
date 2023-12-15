@@ -439,6 +439,12 @@ padding: 24px 80px;
   max-width: 817px !important;
 }
 
+
+fieldset tui-input,
+fieldset tui-error{
+  width: 100% !important;
+}
+
 .auth-page-content .password-form__input-with-button{
   max-width: 721px  !important;
   height: 100% !important;
@@ -900,7 +906,8 @@ tui-input{
     margin: 0 !important;
   }
 
-  .email-form__input-with-button{
+  .email-form__input-with-button,
+  .verification-form fieldset{
     margin-top: 0 !important;
     display: flex !important;
     flex-direction: column !important;
@@ -962,9 +969,11 @@ tui-hint {
   padding: 0 5px 0 0 !important;
 }
 
-.auth-page-content .verification-form .tui-autofill:has(input[type="tel"]){
+.auth-page-content .verification-form .tui-autofill:has(input[type="tel"]),
+.auth-page-content .verification-form fieldset .tui-autofill{
   padding: 0 20px !important;
 }
+
 
 .auth-page-content .tui-form__button{
   padding: 0px !important;
@@ -988,7 +997,8 @@ tui-hint {
 .auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
 .verification-form .input-container > div,
-.email-form__input-with-button > div{
+.email-form__input-with-button > div,
+.verification-form fieldset{
   width: 100% !important;
   margin: 0 auto !important;
 }
