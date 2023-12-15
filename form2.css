@@ -662,9 +662,9 @@ tui-hint {
 
 tui-dropdown{
   max-height: none !important;
-  height: 250px !important;
+  height: 230px !important;
   border: 3px solid #1B1B1B !important;
-
+  top: calc(50% - 370px) !important;
 }
 
 tui-input{
