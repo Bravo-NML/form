@@ -977,6 +977,8 @@ tui-hint {
   width: 100% !important;
   margin: 0 auto !important;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 tui-input-phone{
