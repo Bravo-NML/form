@@ -219,7 +219,7 @@ text-transform: uppercase;
   .auth-page-content .tui-autofill{
     height: 100%;
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px 10px !important;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
@@ -613,9 +613,6 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
   padding: 0 !important;
 }
 
-.tui-autofill input[type="tel"]{
-  padding: 0 20px !important;
-}
 
 .t-country-select{
   width: 218px !important;
@@ -921,6 +918,10 @@ tui-input,
 
 .auth-page-content .tui-autofill{
   padding: 10px 20px !important;
+}
+
+.tui-autofill input[type="tel"]{
+  padding: 0 20px !important;
 }
 
 .auth-page-content .tui-autofill input{
