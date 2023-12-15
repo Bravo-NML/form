@@ -449,7 +449,7 @@ fieldset tui-error{
   width: 275px !important;
 }
 
-.verification-form fieldset.t-content{
+fieldset.t-content{
   margin-top: 0 !important;
   display: flex !important;
   flex-direction: column !important;
@@ -1007,8 +1007,7 @@ tui-hint {
 .auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
 .verification-form .input-container > div,
-.email-form__input-with-button > div,
-.verification-form fieldset{
+.email-form__input-with-button > div{
   width: 100% !important;
   margin: 0 auto !important;
 }
