@@ -65,6 +65,10 @@ transition: all .1s linear;
   background: #F3F3F3 !important;
 }
 
+.auth-page-content > div {
+  padding: 0 !important;
+}
+
 .auth-page-content .t-placeholder .ng-star-inserted{
   color: #A0A0A0;
 
