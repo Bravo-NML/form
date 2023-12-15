@@ -969,6 +969,8 @@ tui-hint {
   font-style: normal !important;
 }
 
+
+
 .password-form__input-with-button > div,
 .auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
@@ -976,9 +978,10 @@ tui-hint {
 .email-form__input-with-button > div{
   width: 100% !important;
   margin: 0 auto !important;
+}
+
+.password-form__input-with-button > div{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 tui-input-phone{
