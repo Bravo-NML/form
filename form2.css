@@ -940,6 +940,10 @@ tui-input,
   padding: 0 5px 0 0 !important;
 }
 
+.auth-page-content .verification-form .tui-autofill:has(input[type="tel"]){
+  padding: 0 20px !important;
+}
+
 .auth-page-content .tui-form__button{
   padding: 0px !important;
   text-transform: uppercase;
