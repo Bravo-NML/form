@@ -613,6 +613,10 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
   padding: 0 !important;
 }
 
+.tui-autofill input[type="tel"]{
+  padding: 0 20px !important;
+}
+
 .t-country-select{
   width: 218px !important;
 }
@@ -960,6 +964,7 @@ tui-input,
 .auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
 .verification-form .input-container > div{
+  width: 100% !important;
   margin: 0 auto !important;
 }
 
