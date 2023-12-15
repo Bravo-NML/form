@@ -449,6 +449,16 @@ fieldset tui-error{
   width: 275px !important;
 }
 
+.verification-form fieldset.t-content{
+  margin-top: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 15px ;
+  max-width: 277px !important;
+}
+
 .auth-page-content .password-form__input-with-button{
   max-width: 721px  !important;
   height: 100% !important;
