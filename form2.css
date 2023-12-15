@@ -652,9 +652,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 }
 
 tui-dropdown{
-  transform: translateX(50%);
-  margin-left: 7px;
-  left: -50% !important;
+  left: calc(50% - 240px) !important;
   top: calc(50% - 372px) !important;
   max-height: none !important;
   height: 250px !important;
@@ -824,7 +822,6 @@ tui-input{
     top: calc(50% - 270px) !important;
     max-height: none !important;
     height: 150px !important;
-    border: 3px solid #1B1B1B !important;
   }
 
   .auth-page-content .tui-form__button{
@@ -929,16 +926,6 @@ tui-input,
 
 .set-password-form-content .t-input{
   padding: 17px 35px 0 20px!important;
-}
-
-tui-dropdown{
-  transform: translateX(50%);
-  margin-left: 7px;
-  left: -50% !important;
-  top: calc(50% - 372px) !important;
-  max-height: none !important;
-  height: 250px !important;
-  border: 1px solid #1B1B1B !important;
 }
 
 .set-password-form-content .form{
