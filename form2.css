@@ -151,6 +151,7 @@ line-height: normal;
 transition: all .05s linear;
   }
 
+
   .auth-page-content  button{
     border: 3px solid #1B1B1B;
   }
@@ -802,6 +803,7 @@ tui-input{
   .auth-page-content  button:hover,
   .auth-page-content .tui-autofill,
   .auth-page-content .tui-autofill._invalid.focused,
+  .auth-page-content  button,
   [tuiWrapper][data-appearance=textfield]:invalid:invalid._focused._focused, [tuiWrapper][data-appearance=textfield]._invalid._invalid._focused._focused{
     border-width: 1px !important;
   }
