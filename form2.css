@@ -917,7 +917,7 @@ tui-input{
   }
 
   .email-form__input-with-button,
-  .verification-form fieldset.t-content{
+   fieldset.t-content{
     margin-top: 0 !important;
     display: flex !important;
     flex-direction: column !important;
