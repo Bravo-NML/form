@@ -862,7 +862,7 @@ tui-input{
   }
 
   tui-input-phone{
-    width: 222px !important;
+    max-width: none !important;
   }
 
   .auth-page-content input[type="email"]{
