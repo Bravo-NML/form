@@ -660,8 +660,6 @@ tui-hint {
 }
 
 tui-dropdown{
-  left: calc(50% - 240px) !important;
-  top: calc(50% - 372px) !important;
   max-height: none !important;
   height: 250px !important;
   border: 3px solid #1B1B1B !important;
@@ -825,8 +823,6 @@ tui-input{
   }
 
   tui-dropdown{
-    left: calc(50% - 137px) !important;
-    top: calc(50% - 270px) !important;
     max-height: none !important;
     height: 150px !important;
   }
