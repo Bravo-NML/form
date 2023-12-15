@@ -648,7 +648,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 }
 
 tui-hint {
-  border-radius: 7px !important;
+  border-radius: 14px !important;
   background-color: #c8caff;
   color: #1B1B1B;
   font-size: var(--custom-font-size-s);
@@ -929,6 +929,10 @@ tui-input,
 
 .auth-page-content .tui-autofill input{
   padding: 20px 20px 10px !important;
+}
+
+tui-hint {
+  border-radius: 7px !important;
 }
 
 .set-password-form-content .t-input{
