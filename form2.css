@@ -339,6 +339,10 @@ text-transform: uppercase;
 
 }
 
+.back-button:hover{
+  filter: brightness(.7);
+}
+
 .back-button .t-content{
   display: none !important;
 }
