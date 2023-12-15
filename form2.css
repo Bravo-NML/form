@@ -444,7 +444,7 @@ padding: 24px 80px;
 }
 
 
-fieldset tui-input,
+fieldset .sms-code-input,
 fieldset tui-error{
   width: 275px !important;
 }
@@ -699,10 +699,6 @@ tui-input{
   font-size: var(--custom-font-size-s)!important;
   width: auto !important;
   text-align: center !important;
-}
-
-.sms-code-input{
-  width: 272px !important;
 }
 
 .t-loader{
