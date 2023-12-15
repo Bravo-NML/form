@@ -291,6 +291,10 @@ text-transform: uppercase;
 
 .password-form{
   background-color: #F3F3F3 !important;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .password-form .password-form__title{
