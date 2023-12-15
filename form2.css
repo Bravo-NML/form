@@ -334,6 +334,11 @@ text-transform: uppercase;
       border: none !important;
 }
 
+.back-button button{
+  border: none !important;
+
+}
+
 .back-button .t-content{
   display: none !important;
 }
