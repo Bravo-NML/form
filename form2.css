@@ -226,6 +226,7 @@ text-transform: uppercase;
 
   .auth-page-content .tui-autofill input{
     text-align: left !important;
+    padding: 30px 20px 10px !important;
   }
 
   .auth-page-content .tui-autofill._invalid.focused{
@@ -949,7 +950,7 @@ tui-input,
   font-style: normal !important;
 }
 
-.auth-page-content  .confirm-form > div,
+.auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
 .verification-form .input-container > div{
   margin: 0 auto !important;
