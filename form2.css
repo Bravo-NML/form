@@ -219,7 +219,7 @@ text-transform: uppercase;
   .auth-page-content .tui-autofill{
     height: 100%;
     width: 100%;
-    padding: 30px 20px 10px !important;
+    padding: 20px !important;
     background-color: transparent !important;
     box-sizing: border-box;
     border: 3px solid #1B1B1B;
