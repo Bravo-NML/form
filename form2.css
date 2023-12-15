@@ -968,6 +968,10 @@ tui-input,
   margin: 0 auto !important;
 }
 
+tui-input-phone{
+  max-width: none !important;
+}
+
 .auth-page-content .confirm-form, .auth-page-content .email-form, .verification-form .input-container {
   display: flex;
   flex-direction: column;
