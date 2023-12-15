@@ -952,6 +952,10 @@ tui-hint {
   padding: 0 20px !important;
 }
 
+tui-input-phone{
+  width: auto !important;
+}
+
 .auth-page-content .tui-form__button{
   padding: 0px !important;
   text-transform: uppercase;
