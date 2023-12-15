@@ -647,6 +647,14 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
   justify-content: center !important;
 }
 
+tui-hint {
+  border-radius: 7px !important;
+  background-color: #c8caff;
+  color: #1B1B1B;
+  font-size: var(--custom-font-size-s);
+  line-height: normal;
+}
+
 .tui-form__button:hover .t-wrapper{
   background-color: transparent !important;
 }
@@ -719,7 +727,8 @@ tui-input{
   .auth-page-content .confirm-form__description,
   .info_resend, .no-code,
   .agreement-block,
-  .password-form .link-row{
+  .password-form .link-row,
+  tui-hint{
     font-size: var(--custom-font-size-s-m) !important;
     line-height: normal;
   }
@@ -745,6 +754,7 @@ tui-input{
     font-size: var(--custom-font-size-m-m) !important;
     line-height: normal;
   }
+
 
   #email-form-submit-button .t-content,
   #password-form-submit-button .t-content,
