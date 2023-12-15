@@ -645,7 +645,7 @@ div[eva-automation-id="tui-input-phone-international__back__phone-verification-p
 }
 
 tui-hint {
-  border-radius: 14px !important;
+  border-radius: 7px !important;
   background-color: #c8caff !important;
   color: #1B1B1B !important;
   font-size: var(--custom-font-size-s) !important;
