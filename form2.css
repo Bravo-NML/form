@@ -826,6 +826,7 @@ tui-input{
   tui-dropdown{
     max-height: none !important;
     height: 150px !important;
+    top: calc(50% - 270px) !important;
   }
 
   .auth-page-content .tui-form__button{
