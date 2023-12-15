@@ -554,6 +554,10 @@ padding: 0 !important;
 margin-left: -6px;
 }
 
+.confirm-form__go-back-row{
+  font-size: 25px;
+}
+
 
 .verification-form .title,  .sub-title, .title{
   color: #1B1B1B !important;
