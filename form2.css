@@ -887,10 +887,6 @@ tui-input{
     margin: 0 !important;
   }
 
-  .email-form__input-with-button > div{
-    width: 100% !important;
-  }
-
   .email-form__input-with-button{
     margin-top: 0 !important;
     display: flex !important;
@@ -964,10 +960,6 @@ tui-hint {
   height: 70px !important;
 }
 
-.password-form__input-with-button > div{
-  margin: 0 auto !important;
-  width: 100% !important;
-}
 .auth-page-content #password-form-submit-button{
   height: 70px !important;
 }
@@ -977,11 +969,14 @@ tui-hint {
   font-style: normal !important;
 }
 
+.password-form__input-with-button > div,
 .auth-page-content .confirm-form > div,
 .auth-page-content .email-form > div,
-.verification-form .input-container > div{
+.verification-form .input-container > div,
+.email-form__input-with-button > div{
   width: 100% !important;
   margin: 0 auto !important;
+  display: flex;
 }
 
 tui-input-phone{
