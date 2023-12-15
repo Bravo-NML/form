@@ -430,6 +430,10 @@ padding: 24px 80px;
   height: 142px !important;
 }
 
+.verification-form .sub-title {
+  max-width: 800px !important;
+}
+
 .auth-page-content button{
   max-width: 90vw !important;
   margin: 0 auto !important;
