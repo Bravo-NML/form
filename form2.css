@@ -788,9 +788,6 @@ tui-input{
     width: 22px !important;
   }
 
-  .t-input-phone{
-    max-width: 61vw !important;
-  }
   .t-country-select .tui-autofill {
     width: 70px !important;
   }
@@ -861,7 +858,7 @@ tui-input{
     margin-left: -5px !important;
   }
 
-  tui-input-phone{
+  .t-input-phone{
     max-width: none !important;
   }
 
